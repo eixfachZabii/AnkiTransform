@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+
+# Generated OCR output (re-generate with ocr_extract.py)
+input/*.txt
+input/*.thumb.jpeg
+
+# Input images (user-provided, not tracked)
+input/*.jpeg
+input/*.jpg
+input/*.png
+
+# Output decks (re-generate with build_deck.py)
+output/*.apkg
+
+# Cards data (agent-generated per session)
+spanishExtract/cards.json
