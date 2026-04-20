@@ -1,0 +1,14 @@
+[project]
+name = "ankitransform"
+version = "0.1.0"
+description = "Turn textbook photos into Anki flashcard decks"
+requires-python = ">=3.10"
+dependencies = [
+    "genanki",
+    "pdf2image",
+    "pillow",
+    "pytesseract",
+]
+
+[project.scripts]
+ankitransform = "main:main"

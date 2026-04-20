@@ -58,7 +58,7 @@ User attaches images. Save them to `input/` as `.jpeg` files.
 ### Step 2 — OCR vocab pages
 
 ```bash
-cd spanishExtract && source ../.venv/bin/activate && python3 ocr_extract.py --input-dir ../input --split-columns
+uv run python main.py ocr --input-dir input --split-columns
 ```
 
 - Auto-detects rotation (tests all 4 angles, picks best)
@@ -73,7 +73,7 @@ cd spanishExtract && source ../.venv/bin/activate && python3 ocr_extract.py --in
 
 ### Step 4 — Write cards.json
 
-Write all cards to `spanishExtract/cards.json`:
+Write all cards to `src/spanishExtract/cards.json`:
 
 ```json
 {
@@ -88,13 +88,13 @@ Write all cards to `spanishExtract/cards.json`:
 ### Step 5 — Deduplicate
 
 ```bash
-cd spanishExtract && source ../.venv/bin/activate && python3 dedup_cards.py cards.json
+uv run python main.py dedup src/spanishExtract/cards.json
 ```
 
 ### Step 6 — Build deck
 
 ```bash
-cd spanishExtract && source ../.venv/bin/activate && mkdir -p ../output && python3 build_deck.py cards.json --out ../output/DECK_NAME.apkg
+uv run python main.py build src/spanishExtract/cards.json --out output/DECK_NAME.apkg
 ```
 
 ### Step 7 — Report
