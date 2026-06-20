@@ -1,23 +1,24 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# OS / editor
 .DS_Store
 .idea/
 
-# Generated OCR output (re-generate with ocr_extract.py)
-input/*.txt
-input/*.thumb.jpeg
+# Test cache
+.pytest_cache/
 
-# Input images (user-provided, not tracked)
-input/*.jpeg
-input/*.jpg
-input/*.png
+# pdf-to-png generated images (re-generate with convert.py)
+pdf-to-png/output/
 
-# Output decks (re-generate with build_deck.py)
-output/*.apkg
-
-# Cards data (agent-generated per session)
-spanishExtract/cards.json
+# Spanish pipeline scratch files
+spanish/.payload.json
+spanish/.smoke.json
 
 # Visual brainstorming companion
 .superpowers/
+
+# Transient session handoff notes
+HANDOFF.md

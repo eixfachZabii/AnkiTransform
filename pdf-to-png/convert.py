@@ -59,8 +59,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Convert all PDFs in a folder to PNG images"
     )
-    parser.add_argument("--input-dir", default="input")
-    parser.add_argument("--output-dir", default="output")
+    parser.add_argument("--input-dir", default="pdf-to-png/input")
+    parser.add_argument("--output-dir", default="pdf-to-png/output")
     parser.add_argument("--dpi", type=int, default=300)
     args = parser.parse_args()
     batch_convert(args.input_dir, args.output_dir, args.dpi)
