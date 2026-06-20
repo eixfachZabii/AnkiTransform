@@ -13,6 +13,14 @@ __pycache__/
 # pdf-to-png generated images (re-generate with convert.py)
 pdf-to-png/output/
 
+# Spanish source photos (kept locally, not tracked in git)
+spanish/inbox/*.jpeg
+spanish/inbox/*.jpg
+spanish/inbox/*.png
+spanish/archive/*.jpeg
+spanish/archive/*.jpg
+spanish/archive/*.png
+
 # Spanish pipeline scratch files
 spanish/.payload.json
 spanish/.smoke.json

@@ -15,9 +15,8 @@ them into Anki via the `anki-mcp` server. No manual `.apkg` import.
 - Note types created once: `uv run python -m spanish.models` → create each via MCP `createModel`.
 
 ## Layout
-- `inbox/` — drop new photos here.
-- `archive/` — processed photos land here automatically.
+- `inbox/` — drop new photos here (photos are local-only, not tracked in git).
+- `archive/` — processed photos land here automatically (also git-ignored).
 - `models/` — note-type definitions (fields, templates, CSS) = source of truth.
-- `cards.json` — running audit log of authored cards (new schema).
-- `cards.legacy.json` — the original 439 v1 cards, preserved for the optional upgrade.
+- `cards.json` — running audit log of authored cards.
 - `build_notes.py` / `normalize.py` — deterministic, tested transform + dedup helpers.
