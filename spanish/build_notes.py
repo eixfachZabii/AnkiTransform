@@ -125,13 +125,34 @@ _BUILDERS = {
     "grammar_reference": _grammar_reference,
 }
 
+# Which target deck each card type routes to. Vocab (and the cloze sentence it
+# spawns) follow the word into the vocab deck; grammar drills and reference
+# tables go to the grammar deck.
+_TYPE_DECK = {
+    "vocab": "vocab",
+    "grammar_cloze": "grammar",
+    "grammar_reference": "grammar",
+}
+
+
+def _decks(data: dict) -> dict[str, str]:
+    """Resolve the per-type deck map, falling back to a single deck_name/default."""
+    fallback = (data.get("deck_name") or DEFAULT_DECK).strip()
+    decks = data.get("decks") or {}
+    return {
+        "vocab": (decks.get("vocab") or fallback).strip(),
+        "grammar": (decks.get("grammar") or fallback).strip(),
+    }
+
 
 def build_notes(data: dict) -> list[dict]:
-    deck = (data.get("deck_name") or DEFAULT_DECK).strip()
+    decks = _decks(data)
     out: list[dict] = []
     for card in data.get("cards", []):
-        builder = _BUILDERS.get(card.get("type", "vocab"))
+        card_type = card.get("type", "vocab")
+        builder = _BUILDERS.get(card_type)
         if builder:
+            deck = decks[_TYPE_DECK.get(card_type, "vocab")]
             out.extend(builder(card, deck))
     return out
 

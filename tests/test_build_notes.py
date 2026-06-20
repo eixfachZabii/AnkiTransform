@@ -73,3 +73,39 @@ def test_grammar_reference_one_note():
 def test_deck_name_defaults_when_absent():
     data = {"cards": [{"type": "vocab", "spanish": "y", "german": "und"}]}
     assert build_notes(data)[0]["deckName"] == "AnkiTransform::ES→DE::Lektion 0-1"
+
+
+def test_per_type_deck_routing():
+    data = {
+        "decks": {"vocab": "V deck", "grammar": "G deck"},
+        "cards": [
+            {
+                "type": "vocab", "spanish": "la tarde", "german": "der Nachmittag",
+                "example_cloze": "Por la {{c1::tarde}} estudio.",
+            },
+            {"type": "grammar_cloze", "title": "ser", "rows": [["yo", "soy"]]},
+            {"type": "grammar_reference", "title": "Alfabeto", "table_html": "<table></table>"},
+        ],
+    }
+    notes = build_notes(data)
+
+    # vocab note + its cloze sentence both follow the word into the vocab deck
+    assert notes[0]["model"] == "AnkiTransform ES Vocab"
+    assert notes[0]["deckName"] == "V deck"
+    assert notes[1]["model"] == "AnkiTransform ES Cloze"
+    assert notes[1]["deckName"] == "V deck"
+
+    # grammar drill rows and reference tables go to the grammar deck
+    assert notes[2]["fields"]["Text"].startswith("ser:")
+    assert notes[2]["deckName"] == "G deck"
+    assert notes[3]["model"] == "AnkiTransform ES Grammar"
+    assert notes[3]["deckName"] == "G deck"
+
+
+def test_decks_mapping_falls_back_to_deck_name():
+    data = {"deck_name": "Solo", "cards": [
+        {"type": "vocab", "spanish": "y", "german": "und"},
+        {"type": "grammar_reference", "title": "A", "table_html": "<table></table>"},
+    ]}
+    notes = build_notes(data)
+    assert [n["deckName"] for n in notes] == ["Solo", "Solo"]

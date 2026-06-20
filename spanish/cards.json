@@ -1,5 +1,8 @@
 {
-  "deck_name": "AnkiTransform::ES→DE::Lektion 0-1",
+  "decks": {
+    "vocab": "UNI::SS 2026::🇪🇸Spanisch::vocab",
+    "grammar": "UNI::SS 2026::🇪🇸Spanisch::grammar"
+  },
   "lang_front": "es",
   "lang_back": "de",
   "cards": []

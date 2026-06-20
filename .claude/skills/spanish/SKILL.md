@@ -27,7 +27,7 @@ Turn textbook photos into live Anki cards. **You do all the work**; the user onl
 
 4. **Build payloads.** Run `uv run python -m spanish.build_notes spanish/cards.json --out spanish/.payload.json`.
 
-5. **Dedup against the live deck.** For each payload, `findNotes` with query `deck:"<deckName>" <DedupField>:"<dedup_key text>"` (use the payload's `dedup_field`). Drop any payload that already matches. Keep a running skipped count.
+5. **Dedup against the live deck.** For each payload, search its target deck for the dedup term as a quoted **phrase**: `findNotes` with `deck:"<deckName>" "<dedup_key text>"`. Keep this field-agnostic on purpose — the legacy ~432 vocab notes use the old `Front`/`Back` fields, not `Spanish`/`Text`, so a field-scoped `<DedupField>:` query would miss them and create duplicates. Drop any payload that already matches; keep a running skipped count. **Never search, dedup against, or write to `UNI::SS 2026::Spanish KOFI`** — it's a separate downloaded deck and is off-limits.
 
 6. **Insert.** `addNotes` the survivors in batches ≤100 (`model`→modelName, `deckName`, `fields`, `tags`). Cloze notes use the `AnkiTransform ES Cloze` model.
 
@@ -36,5 +36,5 @@ Turn textbook photos into live Anki cards. **You do all the work**; the user onl
 8. **Report.** Print: cards added per type, duplicates skipped, photos archived, and any low-confidence example sentences or unreadable spots you skipped (ask the user about those).
 
 ## Notes
-- The default deck name is in `spanish/cards.json` (`deck_name`). Confirm it matches a real deck from `listDecks`; if not, ask which deck to use.
+- Target decks live in `spanish/cards.json` (`decks.vocab`, `decks.grammar`). Vocab + its cloze sentence → `decks.vocab`; grammar drills + reference tables → `decks.grammar`. Confirm both match real decks from `listDecks`; if not, ask which decks to use.
 - If a photo is ambiguous, ask the user rather than guessing.
