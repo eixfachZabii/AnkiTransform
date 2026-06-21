@@ -15,19 +15,20 @@ Turn textbook photos into live Anki cards. **You do all the work**; the user onl
 
 ## Procedure
 
-1. **Preflight.** Call `listDecks`. If it errors, stop and tell the user: "Open Anki (with AnkiConnect) and try again." Confirm the three models exist via `modelNames`; if any are missing, create them from `uv run python -m spanish.models` (see the plan's Task 5 / setup).
+1. **Preflight.** Call `listDecks`. If it errors, stop and tell the user: "Open Anki (with AnkiConnect) and try again." Confirm the three models exist via `modelNames`; if any are missing, create them from `uv run python -m spanish.models` (see the plan's Task 5 / setup). All three models share the light/dark CSS in `spanish/models/styles.py` (single source of truth) — if a model exists but its styling is stale, refresh it with `updateModelStyling` from that file. Never inline colours into card HTML.
 
-2. **Read photos.** For each image in `spanish/inbox/`, read it directly with vision. Vocab pages: extract Spanish–German pairs (note gender/POS as the `grammar` tag). Grammar pages: read the table; decide reference vs. drillable (conjugation/declension → cloze rows; alphabet/pronunciation/rule lists → reference).
+2. **Read photos.** For each image in `spanish/inbox/`, read it directly with vision. Vocab pages: extract Spanish–German pairs (note gender/POS as the `grammar` tag). Grammar pages: **transcribe the content into a clean HTML table even if the source is an image/diagram** — never embed the raw photo. Decide reference vs. drillable (conjugation/declension → cloze rows; alphabet/pronunciation/rule lists → reference). Keep cards focused: split a dense or mixed table (~8+ rows, or several topics) into multiple logically grouped cards — e.g. prepositions by spatial relation — rather than one giant card. If a source image truly must be preserved, back it up under `spanish/grammar_media/` and still build the table.
 
 3. **Author `spanish/cards.json`.** Append entries using this schema:
    - vocab: `{"type":"vocab","spanish":"la tarde","grammar":"f","german":"der Nachmittag","example_cloze":"Por la {{c1::tarde}} estudio español.","example_de":"Am Nachmittag lerne ich Spanisch.","notes":"","source":"IMG_x.jpeg"}`
    - grammar (drill): `{"type":"grammar_cloze","title":"Konjugation von ser","rows":[["yo","soy"],["tú","eres"]],"table_html":"<table>…</table>","source":"IMG_y.jpeg"}`
    - grammar (reference): `{"type":"grammar_reference","title":"El alfabeto","table_html":"<table>…</table>","notes":"","source":"IMG_z.jpeg"}`
    - The cloze deletion (`{{c1::…}}`) goes on the **target word's form as it appears in the sentence**.
+   - **Grammar tables: use a plain `<table>` only** — no `class="…"` (a `class="grammar"` collides with the gender-pill style) and no inline colours/styles. Use `<thead>`/`<th>` for headers and `<b>` to accent a cell; all colours come from the shared CSS so light/dark mode works.
 
 4. **Build payloads.** Run `uv run python -m spanish.build_notes spanish/cards.json --out spanish/.payload.json`.
 
-5. **Dedup against the live deck.** For each payload, search its target deck for the dedup term as a quoted **phrase**: `findNotes` with `deck:"<deckName>" "<dedup_key text>"`. Keep this field-agnostic on purpose — the legacy ~432 vocab notes use the old `Front`/`Back` fields, not `Spanish`/`Text`, so a field-scoped `<DedupField>:` query would miss them and create duplicates. Drop any payload that already matches; keep a running skipped count. **Never search, dedup against, or write to `UNI::SS 2026::Spanish KOFI`** — it's a separate downloaded deck and is off-limits.
+5. **Dedup against the live deck.** For each payload, search its target deck for the dedup term as a quoted **phrase**: `findNotes` with `deck:"<deckName>" "<dedup_key text>"`. Use a phrase search (field-agnostic) rather than a `<field>:` query — it's robust to field-name differences and matches regardless of which note type holds the term. Drop any payload that already matches; keep a running skipped count. **Never search, dedup against, or write to `UNI::SS 2026::Spanish KOFI`** — it's a separate downloaded deck and is off-limits.
 
 6. **Insert.** `addNotes` the survivors in batches ≤100 (`model`→modelName, `deckName`, `fields`, `tags`). Cloze notes use the `AnkiTransform ES Cloze` model.
 
