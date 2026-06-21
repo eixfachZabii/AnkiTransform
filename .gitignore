@@ -30,3 +30,13 @@ spanish/.smoke.json
 
 # Transient session handoff notes
 HANDOFF.md
+
+# Playwright previews / screenshots (local only)
+.playwright/
+.playwright-mcp/
+/cards-preview*.png
+/dark-table-check.png
+
+# Local backups from the legacy upgrade (live data lives in Anki)
+spanish/legacy_export.json
+spanish/grammar_media/

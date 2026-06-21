@@ -5,5 +5,4326 @@
   },
   "lang_front": "es",
   "lang_back": "de",
-  "cards": []
+  "cards": [
+    {
+      "type": "vocab",
+      "spanish": "tenemos",
+      "grammar": "",
+      "german": "wir haben",
+      "example_cloze": "Hoy {{c1::tenemos}} una clase de español.",
+      "example_de": "Heute haben wir einen Spanischkurs.",
+      "notes": "inf: tener",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la facultad",
+      "grammar": "f",
+      "german": "Fakultät",
+      "example_cloze": "Estudio en la {{c1::facultad}} de Derecho.",
+      "example_de": "Ich studiere an der juristischen Fakultät.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la escuela universitaria",
+      "grammar": "f",
+      "german": "Hochschule",
+      "example_cloze": "Ella estudia en una {{c1::escuela universitaria}} técnica.",
+      "example_de": "Sie studiert an einer technischen Hochschule.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "aproximadamente",
+      "grammar": "adv",
+      "german": "etwa, ungefähr",
+      "example_cloze": "El curso dura {{c1::aproximadamente}} tres meses.",
+      "example_de": "Der Kurs dauert etwa drei Monate.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el campus",
+      "grammar": "m",
+      "german": "Campus, Universitätsgelände",
+      "example_cloze": "El {{c1::campus}} tiene una biblioteca moderna.",
+      "example_de": "Der Campus hat eine moderne Bibliothek.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tienen",
+      "grammar": "",
+      "german": "sie haben",
+      "example_cloze": "Los estudiantes {{c1::tienen}} muchos libros.",
+      "example_de": "Die Studenten haben viele Bücher.",
+      "notes": "inf: tener",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la posibilidad",
+      "grammar": "f",
+      "german": "Möglichkeit",
+      "example_cloze": "Tengo la {{c1::posibilidad}} de estudiar en España.",
+      "example_de": "Ich habe die Möglichkeit, in Spanien zu studieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "elegir",
+      "grammar": "inf",
+      "german": "(aus)wählen",
+      "example_cloze": "Puedes {{c1::elegir}} entre dos idiomas.",
+      "example_de": "Du kannst zwischen zwei Sprachen wählen.",
+      "notes": "i",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "entre",
+      "grammar": "",
+      "german": "unter, zwischen",
+      "example_cloze": "La biblioteca está {{c1::entre}} dos edificios.",
+      "example_de": "Die Bibliothek ist zwischen zwei Gebäuden.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la nacionalidad",
+      "grammar": "f",
+      "german": "Nationalität",
+      "example_cloze": "¿Cuál es tu {{c1::nacionalidad}}?",
+      "example_de": "Welche Nationalität hast du?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "diferente",
+      "grammar": "adj",
+      "german": "verschieden, unterschiedlich",
+      "example_cloze": "Cada estudiante es {{c1::diferente}}.",
+      "example_de": "Jeder Student ist anders.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "nosotros / nosotras",
+      "grammar": "",
+      "german": "wir",
+      "example_cloze": "{{c1::Nosotros}} estudiamos juntos.",
+      "example_de": "Wir lernen zusammen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "vosotros / vosotras",
+      "grammar": "",
+      "german": "ihr",
+      "example_cloze": "¿{{c1::Vosotros}} habláis alemán?",
+      "example_de": "Sprecht ihr Deutsch?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "ellos / ellas",
+      "grammar": "",
+      "german": "sie (Plural)",
+      "example_cloze": "{{c1::Ellos}} viven en Madrid.",
+      "example_de": "Sie wohnen in Madrid.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "ustedes",
+      "grammar": "",
+      "german": "Sie (Plural, formell)",
+      "example_cloze": "¿De dónde son {{c1::ustedes}}?",
+      "example_de": "Woher kommen Sie?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "invitado/-a",
+      "grammar": "adj",
+      "german": "eingeladen",
+      "example_cloze": "Estás {{c1::invitado}} a la fiesta.",
+      "example_de": "Du bist zur Party eingeladen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el semestre",
+      "grammar": "m",
+      "german": "Semester",
+      "example_cloze": "El {{c1::semestre}} empieza en octubre.",
+      "example_de": "Das Semester beginnt im Oktober.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "no",
+      "grammar": "",
+      "german": "nicht; nein",
+      "example_cloze": "{{c1::No}} hablo italiano.",
+      "example_de": "Ich spreche kein Italienisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "yo sí",
+      "grammar": "",
+      "german": "ich schon",
+      "example_cloze": "Ella no viene, pero {{c1::yo sí}}.",
+      "example_de": "Sie kommt nicht, aber ich schon.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el perfil",
+      "grammar": "m",
+      "german": "Profil",
+      "example_cloze": "Tu {{c1::perfil}} es muy interesante.",
+      "example_de": "Dein Profil ist sehr interessant.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la informático/-a",
+      "grammar": "",
+      "german": "Informatiker/in",
+      "example_cloze": "Mi hermano es {{c1::informático}}.",
+      "example_de": "Mein Bruder ist Informatiker.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el tándem",
+      "grammar": "m",
+      "german": "Tandem",
+      "example_cloze": "Aprendemos en un {{c1::tándem}} de idiomas.",
+      "example_de": "Wir lernen in einem Sprach-Tandem.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el número de teléfono",
+      "grammar": "m",
+      "german": "Telefonnummer",
+      "example_cloze": "¿Cuál es tu {{c1::número de teléfono}}?",
+      "example_de": "Wie ist deine Telefonnummer?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el cero",
+      "grammar": "m",
+      "german": "Null",
+      "example_cloze": "Mi número empieza con un {{c1::cero}}.",
+      "example_de": "Meine Nummer beginnt mit einer Null.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la clase",
+      "grammar": "f",
+      "german": "Klasse, Unterricht",
+      "example_cloze": "La {{c1::clase}} de español es por la mañana.",
+      "example_de": "Der Spanischunterricht ist am Morgen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la cuenta",
+      "grammar": "f",
+      "german": "Rechnung, Konto",
+      "example_cloze": "Pago la {{c1::cuenta}} en el café.",
+      "example_de": "Ich zahle die Rechnung im Café.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Latinoamérica",
+      "grammar": "",
+      "german": "Lateinamerika",
+      "example_cloze": "Quiero viajar por {{c1::Latinoamérica}}.",
+      "example_de": "Ich möchte durch Lateinamerika reisen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la antigüedad",
+      "grammar": "f",
+      "german": "Alter, Altertum",
+      "example_cloze": "Este monumento es de gran {{c1::antigüedad}}.",
+      "example_de": "Dieses Denkmal ist sehr alt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el primer día",
+      "grammar": "m",
+      "german": "der erste Tag",
+      "example_cloze": "El {{c1::primer día}} de clase estoy nervioso.",
+      "example_de": "Am ersten Schultag bin ich nervös.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "primero/-a",
+      "grammar": "adj",
+      "german": "erste/r/s",
+      "example_cloze": "Vivo en el {{c1::primer}} piso.",
+      "example_de": "Ich wohne im ersten Stock.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el contacto",
+      "grammar": "m",
+      "german": "Kontakt",
+      "example_cloze": "Tengo {{c1::contacto}} con estudiantes españoles.",
+      "example_de": "Ich habe Kontakt zu spanischen Studenten.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Es usted el señor Ríos?",
+      "grammar": "",
+      "german": "Sind Sie Herr Ríos?",
+      "example_cloze": "Buenos días, ¿{{c1::es usted el señor Ríos}}?",
+      "example_de": "Guten Tag, sind Sie Herr Ríos?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "ser",
+      "grammar": "inf",
+      "german": "sein",
+      "example_cloze": "Quiero {{c1::ser}} profesora.",
+      "example_de": "Ich möchte Lehrerin sein.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la señor/a",
+      "grammar": "",
+      "german": "Herr / Frau",
+      "example_cloze": "El {{c1::señor}} Ríos es mi profesor.",
+      "example_de": "Herr Ríos ist mein Lehrer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "sí",
+      "grammar": "",
+      "german": "ja, doch",
+      "example_cloze": "{{c1::Sí}}, hablo español.",
+      "example_de": "Ja, ich spreche Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "soy yo",
+      "grammar": "",
+      "german": "das bin ich",
+      "example_cloze": "—¿Ana? —{{c1::Soy yo}}.",
+      "example_de": "—Ana? —Das bin ich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la estudiante de intercambio",
+      "grammar": "",
+      "german": "Austauschschüler/-student",
+      "example_cloze": "Soy {{c1::estudiante de intercambio}} de Alemania.",
+      "example_de": "Ich bin Austauschstudent aus Deutschland.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "claro",
+      "grammar": "adv",
+      "german": "klar, natürlich",
+      "example_cloze": "{{c1::Claro}}, te ayudo.",
+      "example_de": "Klar, ich helfe dir.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué tal estás?",
+      "grammar": "",
+      "german": "Wie geht es dir?",
+      "example_cloze": "Hola Ana, ¿{{c1::qué tal estás}}?",
+      "example_de": "Hallo Ana, wie geht es dir?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿De dónde...?",
+      "grammar": "",
+      "german": "Woher...?",
+      "example_cloze": "¿{{c1::De dónde}} eres?",
+      "example_de": "Woher kommst du?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "eres",
+      "grammar": "",
+      "german": "du bist",
+      "example_cloze": "¿{{c1::Eres}} de España?",
+      "example_de": "Bist du aus Spanien?",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Francia",
+      "grammar": "",
+      "german": "Frankreich",
+      "example_cloze": "Ella viene de {{c1::Francia}}.",
+      "example_de": "Sie kommt aus Frankreich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mira",
+      "grammar": "",
+      "german": "schau",
+      "example_cloze": "{{c1::Mira}}, esta es mi universidad.",
+      "example_de": "Schau, das ist meine Universität.",
+      "notes": "inf: mirar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "este/-a",
+      "grammar": "",
+      "german": "diese/r/s",
+      "example_cloze": "{{c1::Este}} libro es muy bueno.",
+      "example_de": "Dieses Buch ist sehr gut.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la coordinador/a",
+      "grammar": "",
+      "german": "Koordinator/in",
+      "example_cloze": "La {{c1::coordinadora}} organiza el programa.",
+      "example_de": "Die Koordinatorin organisiert das Programm.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "encantado/-a",
+      "grammar": "adj",
+      "german": "sehr erfreut",
+      "example_cloze": "{{c1::Encantado}} de conocerte.",
+      "example_de": "Sehr erfreut, dich kennenzulernen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "estos/-as son",
+      "grammar": "",
+      "german": "das sind",
+      "example_cloze": "{{c1::Estos son}} mis compañeros.",
+      "example_de": "Das sind meine Mitschüler.",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "sois",
+      "grammar": "",
+      "german": "ihr seid",
+      "example_cloze": "Vosotros {{c1::sois}} muy simpáticos.",
+      "example_de": "Ihr seid sehr nett.",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "también",
+      "grammar": "adv",
+      "german": "auch",
+      "example_cloze": "Yo {{c1::también}} estudio español.",
+      "example_de": "Ich lerne auch Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "somos",
+      "grammar": "",
+      "german": "wir sind",
+      "example_cloze": "{{c1::Somos}} estudiantes de Múnich.",
+      "example_de": "Wir sind Studenten aus München.",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "pero",
+      "grammar": "",
+      "german": "aber",
+      "example_cloze": "Hablo inglés, {{c1::pero}} no francés.",
+      "example_de": "Ich spreche Englisch, aber kein Französisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "hoy",
+      "grammar": "adv",
+      "german": "heute",
+      "example_cloze": "{{c1::Hoy}} tenemos un examen.",
+      "example_de": "Heute haben wir eine Prüfung.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el inglés",
+      "grammar": "m",
+      "german": "Englisch",
+      "example_cloze": "El {{c1::inglés}} es importante para viajar.",
+      "example_de": "Englisch ist wichtig zum Reisen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la catedrático/-a",
+      "grammar": "",
+      "german": "(Hochschul-)Professor/in",
+      "example_cloze": "El {{c1::catedrático}} explica la lección.",
+      "example_de": "Der Professor erklärt die Lektion.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mucho gusto",
+      "grammar": "",
+      "german": "angenehm, freut mich",
+      "example_cloze": "{{c1::Mucho gusto}}, me llamo Pedro.",
+      "example_de": "Freut mich, ich heiße Pedro.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "muy",
+      "grammar": "adv",
+      "german": "sehr",
+      "example_cloze": "El examen es {{c1::muy}} difícil.",
+      "example_de": "Die Prüfung ist sehr schwer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la profesor/a invitado/-a",
+      "grammar": "",
+      "german": "Gastdozent/in",
+      "example_cloze": "Hoy viene un {{c1::profesor invitado}} de Chile.",
+      "example_de": "Heute kommt ein Gastdozent aus Chile.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la bibliotecario/-a",
+      "grammar": "",
+      "german": "Bibliothekar/in",
+      "example_cloze": "El {{c1::bibliotecario}} busca el libro.",
+      "example_de": "Der Bibliothekar sucht das Buch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la representante de alumnos",
+      "grammar": "",
+      "german": "Studentenvertreter/in",
+      "example_cloze": "Ella es la {{c1::representante de alumnos}}.",
+      "example_de": "Sie ist die Studentenvertreterin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la becario/-a",
+      "grammar": "",
+      "german": "Stipendiat/in",
+      "example_cloze": "Soy {{c1::becario}} de la universidad.",
+      "example_de": "Ich bin Stipendiat der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la auxiliar médico/-a",
+      "grammar": "",
+      "german": "medizinische Hilfskraft, Arzthelferin",
+      "example_cloze": "Trabaja como {{c1::auxiliar médico}} en el hospital.",
+      "example_de": "Er arbeitet als Arzthelfer im Krankenhaus.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la administrativo/-a",
+      "grammar": "",
+      "german": "Verwaltungsangestellte/r, Sachbearbeiter/in",
+      "example_cloze": "La {{c1::administrativa}} organiza los documentos.",
+      "example_de": "Die Sachbearbeiterin organisiert die Dokumente.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la investigador/a",
+      "grammar": "",
+      "german": "Forscher/in, Wissenschaftler/in",
+      "example_cloze": "Mi madre es {{c1::investigadora}} en biología.",
+      "example_de": "Meine Mutter ist Forscherin in der Biologie.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el personal de administración",
+      "grammar": "m",
+      "german": "Verwaltungspersonal",
+      "example_cloze": "El {{c1::personal de administración}} trabaja en la oficina.",
+      "example_de": "Das Verwaltungspersonal arbeitet im Büro.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el nombre",
+      "grammar": "m",
+      "german": "Name, Vorname",
+      "example_cloze": "Mi {{c1::nombre}} es Laura.",
+      "example_de": "Mein Vorname ist Laura.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el apellido",
+      "grammar": "m",
+      "german": "Nachname",
+      "example_cloze": "¿Cuál es tu {{c1::apellido}}?",
+      "example_de": "Wie ist dein Nachname?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la edad",
+      "grammar": "f",
+      "german": "Alter",
+      "example_cloze": "¿Qué {{c1::edad}} tienes?",
+      "example_de": "Wie alt bist du?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la dirección",
+      "grammar": "f",
+      "german": "Adresse",
+      "example_cloze": "Escribe tu {{c1::dirección}} aquí.",
+      "example_de": "Schreib deine Adresse hier hin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el lugar de residencia",
+      "grammar": "m",
+      "german": "Wohnort",
+      "example_cloze": "Múnich es mi {{c1::lugar de residencia}}.",
+      "example_de": "München ist mein Wohnort.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el correo electrónico",
+      "grammar": "m",
+      "german": "E-Mail(-Adresse)",
+      "example_cloze": "Te mando un {{c1::correo electrónico}}.",
+      "example_de": "Ich schicke dir eine E-Mail.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el lugar de nacimiento",
+      "grammar": "m",
+      "german": "Geburtsort",
+      "example_cloze": "Berlín es mi {{c1::lugar de nacimiento}}.",
+      "example_de": "Berlin ist mein Geburtsort.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "de apellido",
+      "grammar": "",
+      "german": "mit Nachnamen",
+      "example_cloze": "{{c1::De apellido}} se llama García.",
+      "example_de": "Mit Nachnamen heißt er García.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué haces?",
+      "grammar": "",
+      "german": "Was machst du (beruflich)?",
+      "example_cloze": "¿{{c1::Qué haces}}? —Soy ingeniera.",
+      "example_de": "Was machst du beruflich? —Ich bin Ingenieurin.",
+      "notes": "inf: hacer",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "hacer",
+      "grammar": "inf",
+      "german": "machen",
+      "example_cloze": "¿Qué quieres {{c1::hacer}} hoy?",
+      "example_de": "Was möchtest du heute machen?",
+      "notes": "g",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿De qué facultad eres?",
+      "grammar": "",
+      "german": "An welcher Fakultät bist du?",
+      "example_cloze": "Hola, ¿{{c1::de qué facultad eres}}?",
+      "example_de": "Hallo, an welcher Fakultät bist du?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cuál es tu número de teléfono?",
+      "grammar": "",
+      "german": "Wie lautet deine Telefonnummer?",
+      "example_cloze": "Perdona, ¿{{c1::cuál es tu número de teléfono}}?",
+      "example_de": "Entschuldige, wie ist deine Telefonnummer?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el móvil",
+      "grammar": "m",
+      "german": "Handy",
+      "example_cloze": "Mi {{c1::móvil}} no funciona.",
+      "example_de": "Mein Handy funktioniert nicht.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el celular",
+      "grammar": "m",
+      "german": "Handy",
+      "example_cloze": "Dejé el {{c1::celular}} en casa.",
+      "example_de": "Ich habe das Handy zu Hause gelassen.",
+      "notes": "LA",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el número de matrícula",
+      "grammar": "m",
+      "german": "Matrikelnummer",
+      "example_cloze": "Necesito tu {{c1::número de matrícula}}.",
+      "example_de": "Ich brauche deine Matrikelnummer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la arroba (@)",
+      "grammar": "f",
+      "german": "At-Zeichen, Klammeraffe",
+      "example_cloze": "El correo lleva una {{c1::arroba}}.",
+      "example_de": "Die E-Mail-Adresse enthält ein At-Zeichen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el punto (.)",
+      "grammar": "m",
+      "german": "Punkt",
+      "example_cloze": "Mi correo termina en {{c1::punto}} com.",
+      "example_de": "Meine E-Mail endet auf Punkt com.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el guion (-)",
+      "grammar": "m",
+      "german": "Bindestrich",
+      "example_cloze": "El nombre lleva un {{c1::guion}}.",
+      "example_de": "Der Name hat einen Bindestrich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el guion bajo (_)",
+      "grammar": "m",
+      "german": "Unterstrich",
+      "example_cloze": "Usa un {{c1::guion bajo}} en el usuario.",
+      "example_de": "Benutze einen Unterstrich im Benutzernamen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "junto/-a",
+      "grammar": "adj",
+      "german": "zusammen",
+      "example_cloze": "Escribimos las palabras {{c1::juntas}}.",
+      "example_de": "Wir schreiben die Wörter zusammen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "o",
+      "grammar": "",
+      "german": "oder",
+      "example_cloze": "¿Café {{c1::o}} té?",
+      "example_de": "Kaffee oder Tee?",
+      "notes": "wird zu &#x27;u&#x27; vor o-/ho-",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "separado/-a",
+      "grammar": "adj",
+      "german": "getrennt",
+      "example_cloze": "Las palabras van {{c1::separadas}}.",
+      "example_de": "Die Wörter werden getrennt geschrieben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el carnet electrónico",
+      "grammar": "m",
+      "german": "elektronischer Studentenausweis",
+      "example_cloze": "Uso mi {{c1::carnet electrónico}} en la biblioteca.",
+      "example_de": "Ich benutze meinen elektronischen Studentenausweis in der Bibliothek.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Para qué?",
+      "grammar": "",
+      "german": "Wozu?",
+      "example_cloze": "¿{{c1::Para qué}} necesitas el libro?",
+      "example_de": "Wozu brauchst du das Buch?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "usas",
+      "grammar": "",
+      "german": "du benutzt",
+      "example_cloze": "¿Qué aplicación {{c1::usas}} para estudiar?",
+      "example_de": "Welche App benutzt du zum Lernen?",
+      "notes": "inf: usar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el idioma",
+      "grammar": "m",
+      "german": "Sprache",
+      "example_cloze": "El español es un {{c1::idioma}} bonito.",
+      "example_de": "Spanisch ist eine schöne Sprache.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la afición",
+      "grammar": "f",
+      "german": "Neigung, Vorliebe",
+      "example_cloze": "Mi {{c1::afición}} es la música.",
+      "example_de": "Mein Hobby ist die Musik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Italia",
+      "grammar": "",
+      "german": "Italien",
+      "example_cloze": "Quiero ir de vacaciones a {{c1::Italia}}.",
+      "example_de": "Ich möchte in Italien Urlaub machen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "vivo",
+      "grammar": "",
+      "german": "ich wohne",
+      "example_cloze": "{{c1::Vivo}} en una residencia.",
+      "example_de": "Ich wohne in einem Wohnheim.",
+      "notes": "inf: vivir",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la chico/-a",
+      "grammar": "",
+      "german": "junge/r Mann / Frau",
+      "example_cloze": "Ese {{c1::chico}} es mi compañero.",
+      "example_de": "Dieser Junge ist mein Mitschüler.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Rusia",
+      "grammar": "",
+      "german": "Russland",
+      "example_cloze": "Ella aprende ruso porque viaja a {{c1::Rusia}}.",
+      "example_de": "Sie lernt Russisch, weil sie nach Russland reist.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Brasil",
+      "grammar": "",
+      "german": "Brasilien",
+      "example_cloze": "En {{c1::Brasil}} hablan portugués.",
+      "example_de": "In Brasilien spricht man Portugiesisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "hablo",
+      "grammar": "",
+      "german": "ich spreche",
+      "example_cloze": "{{c1::Hablo}} alemán e inglés.",
+      "example_de": "Ich spreche Deutsch und Englisch.",
+      "notes": "inf: hablar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el francés",
+      "grammar": "m",
+      "german": "Französisch",
+      "example_cloze": "Estudio {{c1::francés}} en la universidad.",
+      "example_de": "Ich lerne Französisch an der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "ahora",
+      "grammar": "adv",
+      "german": "jetzt",
+      "example_cloze": "{{c1::Ahora}} tengo que estudiar.",
+      "example_de": "Jetzt muss ich lernen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "aprendo",
+      "grammar": "",
+      "german": "ich lerne",
+      "example_cloze": "{{c1::Aprendo}} español muy rápido.",
+      "example_de": "Ich lerne sehr schnell Spanisch.",
+      "notes": "inf: aprender",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "estudiar",
+      "grammar": "inf",
+      "german": "studieren; lernen",
+      "example_cloze": "Quiero {{c1::estudiar}} medicina.",
+      "example_de": "Ich möchte Medizin studieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "busco",
+      "grammar": "",
+      "german": "ich suche",
+      "example_cloze": "{{c1::Busco}} un compañero de tándem.",
+      "example_de": "Ich suche einen Tandempartner.",
+      "notes": "inf: buscar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "practicar",
+      "grammar": "inf",
+      "german": "üben, praktizieren",
+      "example_cloze": "Quiero {{c1::practicar}} español contigo.",
+      "example_de": "Ich möchte mit dir Spanisch üben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "cocinas",
+      "grammar": "",
+      "german": "du kochst",
+      "example_cloze": "¿{{c1::Cocinas}} comida española?",
+      "example_de": "Kochst du spanisches Essen?",
+      "notes": "inf: cocinar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué tal si...?",
+      "grammar": "",
+      "german": "Wie wäre es, wenn...?",
+      "example_cloze": "¿{{c1::Qué tal si}} estudiamos juntos?",
+      "example_de": "Wie wäre es, wenn wir zusammen lernen?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "juntos/-as",
+      "grammar": "adj",
+      "german": "zusammen, gemeinsam",
+      "example_cloze": "Estudiamos {{c1::juntos}} en la biblioteca.",
+      "example_de": "Wir lernen zusammen in der Bibliothek.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "hablamos",
+      "grammar": "",
+      "german": "wir sprechen",
+      "example_cloze": "{{c1::Hablamos}} español en clase.",
+      "example_de": "Wir sprechen Spanisch im Unterricht.",
+      "notes": "inf: hablar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la familia",
+      "grammar": "f",
+      "german": "Familie",
+      "example_cloze": "Mi {{c1::familia}} vive en Hamburgo.",
+      "example_de": "Meine Familie wohnt in Hamburg.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Turquía",
+      "grammar": "",
+      "german": "Türkei",
+      "example_cloze": "Sus padres son de {{c1::Turquía}}.",
+      "example_de": "Seine Eltern kommen aus der Türkei.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "vivimos",
+      "grammar": "",
+      "german": "wir wohnen",
+      "example_cloze": "{{c1::Vivimos}} en el mismo edificio.",
+      "example_de": "Wir wohnen im selben Gebäude.",
+      "notes": "inf: vivir",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "como",
+      "grammar": "",
+      "german": "als",
+      "example_cloze": "Trabajo {{c1::como}} profesor de inglés.",
+      "example_de": "Ich arbeite als Englischlehrer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la asignatura optativa",
+      "grammar": "f",
+      "german": "Wahl(pflicht)fach",
+      "example_cloze": "El español es una {{c1::asignatura optativa}}.",
+      "example_de": "Spanisch ist ein Wahlfach.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "optativo/-a",
+      "grammar": "adj",
+      "german": "fakultativ, wahlfrei",
+      "example_cloze": "Este curso es {{c1::optativo}}.",
+      "example_de": "Dieser Kurs ist fakultativ.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "comprendo",
+      "grammar": "",
+      "german": "ich verstehe",
+      "example_cloze": "No {{c1::comprendo}} esta palabra.",
+      "example_de": "Ich verstehe dieses Wort nicht.",
+      "notes": "inf: comprender",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "difícil",
+      "grammar": "adj",
+      "german": "schwierig",
+      "example_cloze": "El alemán es un idioma {{c1::difícil}}.",
+      "example_de": "Deutsch ist eine schwierige Sprache.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "leo",
+      "grammar": "",
+      "german": "ich lese",
+      "example_cloze": "{{c1::Leo}} un libro en español.",
+      "example_de": "Ich lese ein Buch auf Spanisch.",
+      "notes": "inf: leer",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mucho",
+      "grammar": "adv",
+      "german": "viel",
+      "example_cloze": "Estudio {{c1::mucho}} por las noches.",
+      "example_de": "Ich lerne abends viel.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la pasión",
+      "grammar": "f",
+      "german": "Leidenschaft",
+      "example_cloze": "La música es mi gran {{c1::pasión}}.",
+      "example_de": "Musik ist meine große Leidenschaft.",
+      "notes": "<img src=\"la-pasion.png\">",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "común",
+      "grammar": "adj",
+      "german": "gemeinsam, gewöhnlich",
+      "example_cloze": "Tenemos un interés {{c1::común}}.",
+      "example_de": "Wir haben ein gemeinsames Interesse.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "estudio",
+      "grammar": "",
+      "german": "ich studiere",
+      "example_cloze": "{{c1::Estudio}} ingeniería en Múnich.",
+      "example_de": "Ich studiere Ingenieurwesen in München.",
+      "notes": "inf: estudiar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "necesito",
+      "grammar": "",
+      "german": "ich brauche",
+      "example_cloze": "{{c1::Necesito}} un diccionario.",
+      "example_de": "Ich brauche ein Wörterbuch.",
+      "notes": "inf: necesitar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "porque",
+      "grammar": "",
+      "german": "weil",
+      "example_cloze": "Estudio español {{c1::porque}} viajo a México.",
+      "example_de": "Ich lerne Spanisch, weil ich nach Mexiko reise.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "importante",
+      "grammar": "adj",
+      "german": "wichtig",
+      "example_cloze": "Es {{c1::importante}} practicar cada día.",
+      "example_de": "Es ist wichtig, jeden Tag zu üben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el alemán",
+      "grammar": "m",
+      "german": "Deutsch",
+      "example_cloze": "El {{c1::alemán}} tiene palabras largas.",
+      "example_de": "Deutsch hat lange Wörter.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el ruso",
+      "grammar": "m",
+      "german": "Russisch",
+      "example_cloze": "El {{c1::ruso}} usa otro alfabeto.",
+      "example_de": "Russisch benutzt ein anderes Alphabet.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "escribo",
+      "grammar": "",
+      "german": "ich schreibe",
+      "example_cloze": "{{c1::Escribo}} un correo a mi profesora.",
+      "example_de": "Ich schreibe meiner Lehrerin eine E-Mail.",
+      "notes": "inf: escribir",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el artículo",
+      "grammar": "m",
+      "german": "Artikel",
+      "example_cloze": "Leo un {{c1::artículo}} interesante.",
+      "example_de": "Ich lese einen interessanten Artikel.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la hablante de español",
+      "grammar": "",
+      "german": "Spanischsprachige/r",
+      "example_cloze": "Soy {{c1::hablante de español}} desde niño.",
+      "example_de": "Ich bin von Kindheit an Spanischsprecher.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tomar",
+      "grammar": "inf",
+      "german": "trinken",
+      "example_cloze": "Quiero {{c1::tomar}} un café.",
+      "example_de": "Ich möchte einen Kaffee trinken.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Grecia",
+      "grammar": "",
+      "german": "Griechenland",
+      "example_cloze": "Este verano viajo a {{c1::Grecia}}.",
+      "example_de": "Diesen Sommer reise ich nach Griechenland.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "trabajo",
+      "grammar": "",
+      "german": "ich arbeite",
+      "example_cloze": "{{c1::Trabajo}} en una empresa de turismo.",
+      "example_de": "Ich arbeite in einem Tourismusunternehmen.",
+      "notes": "inf: trabajar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la empresa",
+      "grammar": "f",
+      "german": "Unternehmen",
+      "example_cloze": "Mi padre tiene una {{c1::empresa}} pequeña.",
+      "example_de": "Mein Vater hat ein kleines Unternehmen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el turismo",
+      "grammar": "m",
+      "german": "Tourismus",
+      "example_cloze": "El {{c1::turismo}} es importante en España.",
+      "example_de": "Der Tourismus ist in Spanien wichtig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "participo (en)",
+      "grammar": "",
+      "german": "ich nehme teil (an)",
+      "example_cloze": "{{c1::Participo}} en un congreso de medicina.",
+      "example_de": "Ich nehme an einem Medizinkongress teil.",
+      "notes": "inf: participar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el congreso",
+      "grammar": "m",
+      "german": "Kongress",
+      "example_cloze": "El {{c1::congreso}} es en Barcelona.",
+      "example_de": "Der Kongress ist in Barcelona.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "internacional",
+      "grammar": "adj",
+      "german": "international",
+      "example_cloze": "Es una universidad {{c1::internacional}}.",
+      "example_de": "Es ist eine internationale Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mis",
+      "grammar": "",
+      "german": "meine",
+      "example_cloze": "{{c1::Mis}} amigos hablan español.",
+      "example_de": "Meine Freunde sprechen Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la colega",
+      "grammar": "",
+      "german": "Kollege/-in",
+      "example_cloze": "Mi {{c1::colega}} es de Perú.",
+      "example_de": "Mein Kollege ist aus Peru.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "España",
+      "grammar": "",
+      "german": "Spanien",
+      "example_cloze": "Quiero estudiar un semestre en {{c1::España}}.",
+      "example_de": "Ich möchte ein Semester in Spanien studieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la clase de conversación",
+      "grammar": "f",
+      "german": "Konversationsunterricht",
+      "example_cloze": "La {{c1::clase de conversación}} es muy útil.",
+      "example_de": "Der Konversationsunterricht ist sehr nützlich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "viajar",
+      "grammar": "inf",
+      "german": "reisen",
+      "example_cloze": "Me gusta {{c1::viajar}} por Sudamérica.",
+      "example_de": "Ich reise gern durch Südamerika.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el teatro",
+      "grammar": "m",
+      "german": "Theater",
+      "example_cloze": "Esta noche vamos al {{c1::teatro}}.",
+      "example_de": "Heute Abend gehen wir ins Theater.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el país",
+      "grammar": "m",
+      "german": "Land",
+      "example_cloze": "España es un {{c1::país}} muy bonito.",
+      "example_de": "Spanien ist ein sehr schönes Land.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Dónde?",
+      "grammar": "",
+      "german": "Wo?",
+      "example_cloze": "¿{{c1::Dónde}} está la biblioteca?",
+      "example_de": "Wo ist die Bibliothek?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Quién?",
+      "grammar": "",
+      "german": "Wer?",
+      "example_cloze": "¿{{c1::Quién}} es tu profesor?",
+      "example_de": "Wer ist dein Lehrer?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "por amor",
+      "grammar": "",
+      "german": "aus Liebe",
+      "example_cloze": "Estudia español {{c1::por amor}} a la cultura.",
+      "example_de": "Sie lernt Spanisch aus Liebe zur Kultur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "por",
+      "grammar": "",
+      "german": "pro; durch; für; wegen",
+      "example_cloze": "Paseo {{c1::por}} el campus cada mañana.",
+      "example_de": "Ich spaziere jeden Morgen durch den Campus.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el amor",
+      "grammar": "m",
+      "german": "Liebe",
+      "example_cloze": "El {{c1::amor}} es un tema universal.",
+      "example_de": "Die Liebe ist ein universelles Thema.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la hispanohablante",
+      "grammar": "",
+      "german": "Spanischsprachige/r",
+      "example_cloze": "Hay muchos {{c1::hispanohablantes}} en Estados Unidos.",
+      "example_de": "Es gibt viele Spanischsprachige in den USA.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "escuchar",
+      "grammar": "inf",
+      "german": "(zu)hören",
+      "example_cloze": "Me gusta {{c1::escuchar}} música latina.",
+      "example_de": "Ich höre gern lateinamerikanische Musik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "español/a",
+      "grammar": "adj",
+      "german": "spanisch",
+      "example_cloze": "Me encanta la comida {{c1::española}}.",
+      "example_de": "Ich liebe das spanische Essen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el café",
+      "grammar": "m",
+      "german": "Kaffee",
+      "example_cloze": "Tomo un {{c1::café}} por la mañana.",
+      "example_de": "Ich trinke morgens einen Kaffee.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la guitarra",
+      "grammar": "f",
+      "german": "Gitarre",
+      "example_cloze": "Toco la {{c1::guitarra}} en una banda.",
+      "example_de": "Ich spiele Gitarre in einer Band.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el libro",
+      "grammar": "m",
+      "german": "Buch",
+      "example_cloze": "Este {{c1::libro}} es de gramática.",
+      "example_de": "Dieses Buch ist ein Grammatikbuch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el chile con carne",
+      "grammar": "m",
+      "german": "Chili con carne (scharfer Hackfleischeintopf)",
+      "example_cloze": "Hoy cocino {{c1::chile con carne}}.",
+      "example_de": "Heute koche ich Chili con Carne.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "yo no",
+      "grammar": "",
+      "german": "ich nicht",
+      "example_cloze": "Ella baila, {{c1::yo no}}.",
+      "example_de": "Sie tanzt, ich nicht.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tampoco",
+      "grammar": "adv",
+      "german": "auch nicht",
+      "example_cloze": "No hablo francés y ella {{c1::tampoco}}.",
+      "example_de": "Ich spreche kein Französisch und sie auch nicht.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "te",
+      "grammar": "",
+      "german": "dir, dich",
+      "example_cloze": "{{c1::Te}} ayudo con la tarea.",
+      "example_de": "Ich helfe dir bei den Hausaufgaben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "presentar",
+      "grammar": "inf",
+      "german": "vorstellen",
+      "example_cloze": "Te quiero {{c1::presentar}} a mi amiga.",
+      "example_de": "Ich möchte dir meine Freundin vorstellen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "contar",
+      "grammar": "inf",
+      "german": "erzählen",
+      "example_cloze": "Te voy a {{c1::contar}} una historia.",
+      "example_de": "Ich werde dir eine Geschichte erzählen.",
+      "notes": "ue",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bailas",
+      "grammar": "",
+      "german": "du tanzt",
+      "example_cloze": "¿{{c1::Bailas}} salsa?",
+      "example_de": "Tanzt du Salsa?",
+      "notes": "inf: bailar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el tango",
+      "grammar": "m",
+      "german": "Tango",
+      "example_cloze": "El {{c1::tango}} viene de Argentina.",
+      "example_de": "Der Tango kommt aus Argentinien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tocas",
+      "grammar": "",
+      "german": "du spielst (ein Instrument)",
+      "example_cloze": "¿{{c1::Tocas}} algún instrumento?",
+      "example_de": "Spielst du ein Instrument?",
+      "notes": "inf: tocar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tener algo en común",
+      "grammar": "",
+      "german": "etwas gemeinsam haben",
+      "example_cloze": "Tú y yo tenemos mucho {{c1::en común}}.",
+      "example_de": "Du und ich haben viel gemeinsam.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "algo",
+      "grammar": "",
+      "german": "etwas",
+      "example_cloze": "¿Quieres comer {{c1::algo}}?",
+      "example_de": "Möchtest du etwas essen?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el grupo de música",
+      "grammar": "m",
+      "german": "Musikgruppe",
+      "example_cloze": "Toco en un {{c1::grupo de música}}.",
+      "example_de": "Ich spiele in einer Musikgruppe.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "solo/-a",
+      "grammar": "adj",
+      "german": "allein",
+      "example_cloze": "Hoy estudio {{c1::solo}} en casa.",
+      "example_de": "Heute lerne ich allein zu Hause.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el tiempo libre",
+      "grammar": "m",
+      "german": "Freizeit",
+      "example_cloze": "En mi {{c1::tiempo libre}} leo libros.",
+      "example_de": "In meiner Freizeit lese ich Bücher.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la cafetería",
+      "grammar": "f",
+      "german": "Cafeteria",
+      "example_cloze": "Comemos en la {{c1::cafetería}} de la universidad.",
+      "example_de": "Wir essen in der Cafeteria der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el piano",
+      "grammar": "m",
+      "german": "Klavier",
+      "example_cloze": "Mi hermana toca el {{c1::piano}}.",
+      "example_de": "Meine Schwester spielt Klavier.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mejor",
+      "grammar": "adj",
+      "german": "besser, beste/r/s",
+      "example_cloze": "Esta es la {{c1::mejor}} biblioteca de la ciudad.",
+      "example_de": "Das ist die beste Bibliothek der Stadt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Sudamérica",
+      "grammar": "",
+      "german": "Südamerika",
+      "example_cloze": "Quiero conocer {{c1::Sudamérica}}.",
+      "example_de": "Ich möchte Südamerika kennenlernen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el destino",
+      "grammar": "m",
+      "german": "Reiseziel, Bestimmung",
+      "example_cloze": "Madrid es un {{c1::destino}} popular.",
+      "example_de": "Madrid ist ein beliebtes Reiseziel.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "favorito/-a",
+      "grammar": "adj",
+      "german": "Lieblings-",
+      "example_cloze": "El español es mi idioma {{c1::favorito}}.",
+      "example_de": "Spanisch ist meine Lieblingssprache.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el millón",
+      "grammar": "m",
+      "german": "Million",
+      "example_cloze": "Madrid tiene más de tres {{c1::millones}} de habitantes.",
+      "example_de": "Madrid hat über drei Millionen Einwohner.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la turista",
+      "grammar": "",
+      "german": "Tourist/in",
+      "example_cloze": "El {{c1::turista}} visita el museo.",
+      "example_de": "Der Tourist besucht das Museum.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "al año",
+      "grammar": "",
+      "german": "pro Jahr, jährlich",
+      "example_cloze": "Viajo a España dos veces {{c1::al año}}.",
+      "example_de": "Ich reise zweimal pro Jahr nach Spanien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la identidad cultural",
+      "grammar": "f",
+      "german": "kulturelle Identität",
+      "example_cloze": "La lengua es parte de la {{c1::identidad cultural}}.",
+      "example_de": "Die Sprache ist Teil der kulturellen Identität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "cultural",
+      "grammar": "adj",
+      "german": "kulturell",
+      "example_cloze": "Hay un programa {{c1::cultural}} muy variado.",
+      "example_de": "Es gibt ein sehr abwechslungsreiches Kulturprogramm.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el subte(rráneo)",
+      "grammar": "m",
+      "german": "U-Bahn, Metro",
+      "example_cloze": "En Buenos Aires viajo en {{c1::subte}}.",
+      "example_de": "In Buenos Aires fahre ich mit der U-Bahn.",
+      "notes": "Buenos Aires",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el metro",
+      "grammar": "m",
+      "german": "U-Bahn, Metro",
+      "example_cloze": "Voy a la universidad en {{c1::metro}}.",
+      "example_de": "Ich fahre mit der U-Bahn zur Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "antiguo/-a",
+      "grammar": "adj",
+      "german": "alt",
+      "example_cloze": "Es un edificio muy {{c1::antiguo}}.",
+      "example_de": "Es ist ein sehr altes Gebäude.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el hospital",
+      "grammar": "m",
+      "german": "Krankenhaus",
+      "example_cloze": "Mi madre trabaja en el {{c1::hospital}}.",
+      "example_de": "Meine Mutter arbeitet im Krankenhaus.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el museo",
+      "grammar": "m",
+      "german": "Museum",
+      "example_cloze": "El {{c1::museo}} está cerca del campus.",
+      "example_de": "Das Museum ist in der Nähe des Campus.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "(el) marzo",
+      "grammar": "m",
+      "german": "März",
+      "example_cloze": "El semestre empieza en {{c1::marzo}}.",
+      "example_de": "Das Semester beginnt im März.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "(el) julio",
+      "grammar": "m",
+      "german": "Juli",
+      "example_cloze": "En {{c1::julio}} tengo vacaciones.",
+      "example_de": "Im Juli habe ich Ferien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "(el) agosto",
+      "grammar": "m",
+      "german": "August",
+      "example_cloze": "{{c1::Agosto}} es un mes muy caluroso.",
+      "example_de": "August ist ein sehr heißer Monat.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "(el) diciembre",
+      "grammar": "m",
+      "german": "Dezember",
+      "example_cloze": "En {{c1::diciembre}} celebramos la Navidad.",
+      "example_de": "Im Dezember feiern wir Weihnachten.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Argentina",
+      "grammar": "",
+      "german": "Argentinien",
+      "example_cloze": "El tango es típico de {{c1::Argentina}}.",
+      "example_de": "Der Tango ist typisch für Argentinien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "latinoamericano/-a",
+      "grammar": "adj",
+      "german": "lateinamerikanisch",
+      "example_cloze": "Me gusta la literatura {{c1::latinoamericana}}.",
+      "example_de": "Ich mag die lateinamerikanische Literatur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la lengua extranjera",
+      "grammar": "f",
+      "german": "Fremdsprache",
+      "example_cloze": "El español es mi segunda {{c1::lengua extranjera}}.",
+      "example_de": "Spanisch ist meine zweite Fremdsprache.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "extranjero/-a",
+      "grammar": "adj",
+      "german": "ausländisch",
+      "example_cloze": "Tengo un amigo {{c1::extranjero}}.",
+      "example_de": "Ich habe einen ausländischen Freund.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "llegar",
+      "grammar": "inf",
+      "german": "(an)kommen",
+      "example_cloze": "Voy a {{c1::llegar}} a las ocho.",
+      "example_de": "Ich werde um acht Uhr ankommen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "especialmente",
+      "grammar": "adv",
+      "german": "besonders, überwiegend",
+      "example_cloze": "Me gusta viajar, {{c1::especialmente}} a España.",
+      "example_de": "Ich reise gern, besonders nach Spanien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el mes",
+      "grammar": "m",
+      "german": "Monat",
+      "example_cloze": "Estudio español desde hace un {{c1::mes}}.",
+      "example_de": "Ich lerne seit einem Monat Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "(el) febrero",
+      "grammar": "m",
+      "german": "Februar",
+      "example_cloze": "Mi cumpleaños es en {{c1::febrero}}.",
+      "example_de": "Mein Geburtstag ist im Februar.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "perfeccionar",
+      "grammar": "inf",
+      "german": "vervollkommnen",
+      "example_cloze": "Quiero {{c1::perfeccionar}} mi español.",
+      "example_de": "Ich möchte mein Spanisch vervollkommnen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la carrera de grado",
+      "grammar": "f",
+      "german": "Hochschulstudium",
+      "example_cloze": "Estudio una {{c1::carrera de grado}} en economía.",
+      "example_de": "Ich mache ein Bachelorstudium in Wirtschaft.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la carrera de posgrado",
+      "grammar": "f",
+      "german": "Aufbaustudium",
+      "example_cloze": "Después hago una {{c1::carrera de posgrado}}.",
+      "example_de": "Danach mache ich ein Aufbaustudium.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "normalmente",
+      "grammar": "adv",
+      "german": "normalerweise",
+      "example_cloze": "{{c1::Normalmente}} estudio en la biblioteca.",
+      "example_de": "Normalerweise lerne ich in der Bibliothek.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "su",
+      "grammar": "",
+      "german": "sein/e, ihr/e, Ihr/e",
+      "example_cloze": "{{c1::Su}} profesora es de México.",
+      "example_de": "Ihre Lehrerin ist aus Mexiko.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "sus",
+      "grammar": "",
+      "german": "seine, ihre, Ihre (Plural)",
+      "example_cloze": "{{c1::Sus}} amigos estudian medicina.",
+      "example_de": "Ihre Freunde studieren Medizin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la educación",
+      "grammar": "f",
+      "german": "Bildung",
+      "example_cloze": "La {{c1::educación}} es muy importante.",
+      "example_de": "Bildung ist sehr wichtig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "gratuito/-a",
+      "grammar": "adj",
+      "german": "kostenlos",
+      "example_cloze": "La universidad es casi {{c1::gratuita}}.",
+      "example_de": "Die Universität ist fast kostenlos.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "aunque",
+      "grammar": "",
+      "german": "obwohl; selbst wenn",
+      "example_cloze": "Estudio español {{c1::aunque}} es difícil.",
+      "example_de": "Ich lerne Spanisch, obwohl es schwierig ist.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "hay",
+      "grammar": "",
+      "german": "es gibt",
+      "example_cloze": "{{c1::Hay}} muchos estudiantes en el campus.",
+      "example_de": "Es gibt viele Studenten auf dem Campus.",
+      "notes": "haber",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "otro/-a",
+      "grammar": "",
+      "german": "ein/e andere/r/s",
+      "example_cloze": "¿Tienes {{c1::otro}} bolígrafo?",
+      "example_de": "Hast du einen anderen Stift?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "que",
+      "grammar": "",
+      "german": "der / die / das (Relativpronomen)",
+      "example_cloze": "El libro {{c1::que}} leo es interesante.",
+      "example_de": "Das Buch, das ich lese, ist interessant.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "popular",
+      "grammar": "adj",
+      "german": "beliebt",
+      "example_cloze": "Es un destino muy {{c1::popular}}.",
+      "example_de": "Es ist ein sehr beliebtes Reiseziel.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Estados Unidos",
+      "grammar": "",
+      "german": "Vereinigte Staaten, USA",
+      "example_cloze": "Mi primo vive en {{c1::Estados Unidos}}.",
+      "example_de": "Mein Cousin lebt in den USA.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Canadá",
+      "grammar": "",
+      "german": "Kanada",
+      "example_cloze": "En {{c1::Canadá}} hablan inglés y francés.",
+      "example_de": "In Kanada spricht man Englisch und Französisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Gran Bretaña",
+      "grammar": "",
+      "german": "Großbritannien",
+      "example_cloze": "Ella estudió en {{c1::Gran Bretaña}}.",
+      "example_de": "Sie hat in Großbritannien studiert.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "gran(de)",
+      "grammar": "adj",
+      "german": "groß",
+      "example_cloze": "Múnich es una ciudad {{c1::grande}}.",
+      "example_de": "München ist eine große Stadt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el fútbol",
+      "grammar": "m",
+      "german": "Fußball",
+      "example_cloze": "Los domingos juego al {{c1::fútbol}}.",
+      "example_de": "Sonntags spiele ich Fußball.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el mate",
+      "grammar": "m",
+      "german": "Mate(-Tee)",
+      "example_cloze": "En Argentina toman {{c1::mate}}.",
+      "example_de": "In Argentinien trinkt man Mate.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "los amigos de toda la vida",
+      "grammar": "",
+      "german": "alte Freunde",
+      "example_cloze": "Ellos son mis {{c1::amigos de toda la vida}}.",
+      "example_de": "Sie sind meine ältesten Freunde.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "todo/-a",
+      "grammar": "",
+      "german": "ganz, alle/r/s",
+      "example_cloze": "Estudio español {{c1::todo}} el día.",
+      "example_de": "Ich lerne den ganzen Tag Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "pasar",
+      "grammar": "inf",
+      "german": "verbringen; geschehen",
+      "example_cloze": "Me gusta {{c1::pasar}} tiempo con amigos.",
+      "example_de": "Ich verbringe gern Zeit mit Freunden.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el estado civil",
+      "grammar": "m",
+      "german": "Familienstand",
+      "example_cloze": "¿Cuál es tu {{c1::estado civil}}?",
+      "example_de": "Wie ist dein Familienstand?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Con quién?",
+      "grammar": "",
+      "german": "Mit wem?",
+      "example_cloze": "¿{{c1::Con quién}} vives?",
+      "example_de": "Mit wem wohnst du?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el aspecto",
+      "grammar": "m",
+      "german": "Aspekt",
+      "example_cloze": "Hablamos de un {{c1::aspecto}} importante.",
+      "example_de": "Wir sprechen über einen wichtigen Aspekt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "estar",
+      "grammar": "inf",
+      "german": "sein (Zustand/Ort)",
+      "example_cloze": "Quiero {{c1::estar}} en casa esta noche.",
+      "example_de": "Ich möchte heute Abend zu Hause sein.",
+      "notes": "yo estoy",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "soltero/-a",
+      "grammar": "adj",
+      "german": "ledig",
+      "example_cloze": "Mi hermano está {{c1::soltero}}.",
+      "example_de": "Mein Bruder ist ledig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "divorciado/-a",
+      "grammar": "adj",
+      "german": "geschieden",
+      "example_cloze": "Sus padres están {{c1::divorciados}}.",
+      "example_de": "Seine Eltern sind geschieden.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "recuerda",
+      "grammar": "",
+      "german": "erinnere dich",
+      "example_cloze": "{{c1::Recuerda}} estudiar para el examen.",
+      "example_de": "Denk daran, für die Prüfung zu lernen.",
+      "notes": "inf: recordar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "aquí",
+      "grammar": "adv",
+      "german": "hier",
+      "example_cloze": "La clase es {{c1::aquí}}.",
+      "example_de": "Der Unterricht ist hier.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "buena gente",
+      "grammar": "",
+      "german": "nette Leute",
+      "example_cloze": "Mis compañeros son {{c1::buena gente}}.",
+      "example_de": "Meine Mitschüler sind nette Leute.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bajo/-a",
+      "grammar": "adj",
+      "german": "klein (Körpergröße)",
+      "example_cloze": "Mi hermano es {{c1::bajo}}.",
+      "example_de": "Mein Bruder ist klein.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el viaje",
+      "grammar": "m",
+      "german": "Reise, Fahrt",
+      "example_cloze": "El {{c1::viaje}} a Madrid es largo.",
+      "example_de": "Die Reise nach Madrid ist lang.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "delgado/-a",
+      "grammar": "adj",
+      "german": "schlank",
+      "example_cloze": "Ella es alta y {{c1::delgada}}.",
+      "example_de": "Sie ist groß und schlank.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la madre",
+      "grammar": "f",
+      "german": "Mutter",
+      "example_cloze": "Mi {{c1::madre}} cocina muy bien.",
+      "example_de": "Meine Mutter kocht sehr gut.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la hermano/-a",
+      "grammar": "",
+      "german": "Bruder / Schwester",
+      "example_cloze": "Mi {{c1::hermana}} estudia en Berlín.",
+      "example_de": "Meine Schwester studiert in Berlin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el pelo",
+      "grammar": "m",
+      "german": "Haar",
+      "example_cloze": "Tengo el {{c1::pelo}} corto.",
+      "example_de": "Ich habe kurze Haare.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la foto",
+      "grammar": "f",
+      "german": "Foto",
+      "example_cloze": "Esta {{c1::foto}} es de mi familia.",
+      "example_de": "Dieses Foto ist von meiner Familie.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "moreno/-a",
+      "grammar": "adj",
+      "german": "dunkel(haarig)",
+      "example_cloze": "Mi novia es {{c1::morena}}.",
+      "example_de": "Meine Freundin ist dunkelhaarig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la vida",
+      "grammar": "f",
+      "german": "Leben",
+      "example_cloze": "La {{c1::vida}} de estudiante es divertida.",
+      "example_de": "Das Studentenleben ist lustig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "corto/-a",
+      "grammar": "adj",
+      "german": "kurz",
+      "example_cloze": "Llevo el pelo {{c1::corto}}.",
+      "example_de": "Ich trage die Haare kurz.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la pregunta",
+      "grammar": "f",
+      "german": "Frage",
+      "example_cloze": "Tengo una {{c1::pregunta}} para el profesor.",
+      "example_de": "Ich habe eine Frage an den Lehrer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la fase",
+      "grammar": "f",
+      "german": "Phase",
+      "example_cloze": "Estoy en una {{c1::fase}} difícil del estudio.",
+      "example_de": "Ich bin in einer schwierigen Phase des Studiums.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "llevar",
+      "grammar": "inf",
+      "german": "tragen",
+      "example_cloze": "Quiero {{c1::llevar}} una chaqueta hoy.",
+      "example_de": "Ich möchte heute eine Jacke tragen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "su pareja",
+      "grammar": "",
+      "german": "sein/e, ihr/e Partner/in",
+      "example_cloze": "Ana viene con {{c1::su pareja}}.",
+      "example_de": "Ana kommt mit ihrem Partner.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la barba",
+      "grammar": "f",
+      "german": "Bart",
+      "example_cloze": "Mi padre tiene {{c1::barba}}.",
+      "example_de": "Mein Vater hat einen Bart.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "casado/-a",
+      "grammar": "adj",
+      "german": "verheiratet",
+      "example_cloze": "Mi hermana está {{c1::casada}}.",
+      "example_de": "Meine Schwester ist verheiratet.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "simpático/-a",
+      "grammar": "adj",
+      "german": "sympathisch",
+      "example_cloze": "El profesor es muy {{c1::simpático}}.",
+      "example_de": "Der Lehrer ist sehr sympathisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el padre",
+      "grammar": "m",
+      "german": "Vater",
+      "example_cloze": "Mi {{c1::padre}} trabaja en un banco.",
+      "example_de": "Mein Vater arbeitet in einer Bank.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "alegre",
+      "grammar": "adj",
+      "german": "fröhlich",
+      "example_cloze": "Ella siempre está {{c1::alegre}}.",
+      "example_de": "Sie ist immer fröhlich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "optimista",
+      "grammar": "adj",
+      "german": "optimistisch",
+      "example_cloze": "Soy una persona {{c1::optimista}}.",
+      "example_de": "Ich bin ein optimistischer Mensch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "demasiado",
+      "grammar": "adv",
+      "german": "zu (sehr)",
+      "example_cloze": "El examen es {{c1::demasiado}} difícil.",
+      "example_de": "Die Prüfung ist zu schwer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la hijo/-a",
+      "grammar": "",
+      "german": "Sohn / Tochter; Kind",
+      "example_cloze": "Su {{c1::hijo}} tiene cinco años.",
+      "example_de": "Ihr Sohn ist fünf Jahre alt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "personal",
+      "grammar": "adj",
+      "german": "persönlich",
+      "example_cloze": "Es una pregunta muy {{c1::personal}}.",
+      "example_de": "Das ist eine sehr persönliche Frage.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la gente",
+      "grammar": "f",
+      "german": "Leute",
+      "example_cloze": "La {{c1::gente}} de Madrid es amable.",
+      "example_de": "Die Leute aus Madrid sind freundlich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la compañero/-a de clase",
+      "grammar": "",
+      "german": "Klassenkamerad/in",
+      "example_cloze": "Mi {{c1::compañera de clase}} es de Italia.",
+      "example_de": "Meine Klassenkameradin ist aus Italien.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¡Somos los mejores!",
+      "grammar": "",
+      "german": "Wir sind die Besten!",
+      "example_cloze": "¡Ganamos el partido! ¡{{c1::Somos los mejores}}!",
+      "example_de": "Wir haben das Spiel gewonnen! Wir sind die Besten!",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "de viaje",
+      "grammar": "",
+      "german": "unterwegs",
+      "example_cloze": "Mis padres están {{c1::de viaje}}.",
+      "example_de": "Meine Eltern sind verreist.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mismo/-a",
+      "grammar": "adj",
+      "german": "gleich, selbe/r/s",
+      "example_cloze": "Vivimos en el {{c1::mismo}} barrio.",
+      "example_de": "Wir wohnen im selben Viertel.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "los/las hermanos/-as",
+      "grammar": "",
+      "german": "Geschwister",
+      "example_cloze": "Tengo dos {{c1::hermanos}}.",
+      "example_de": "Ich habe zwei Geschwister.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la compañero/-a de trabajo",
+      "grammar": "",
+      "german": "Arbeitskollege/-in",
+      "example_cloze": "Mi {{c1::compañero de trabajo}} habla español.",
+      "example_de": "Mein Arbeitskollege spricht Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "responsable",
+      "grammar": "adj",
+      "german": "verantwortungsvoll",
+      "example_cloze": "Es una persona muy {{c1::responsable}}.",
+      "example_de": "Er ist ein sehr verantwortungsvoller Mensch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el hermano mayor",
+      "grammar": "m",
+      "german": "großer / älterer Bruder",
+      "example_cloze": "Mi {{c1::hermano mayor}} vive en Colonia.",
+      "example_de": "Mein älterer Bruder wohnt in Köln.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mayor",
+      "grammar": "adj",
+      "german": "älter, größer, älteste/r/s",
+      "example_cloze": "Mi hermana es {{c1::mayor}} que yo.",
+      "example_de": "Meine Schwester ist älter als ich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "en general",
+      "grammar": "",
+      "german": "im Allgemeinen",
+      "example_cloze": "{{c1::En general}}, me gusta estudiar.",
+      "example_de": "Im Allgemeinen lerne ich gern.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo?",
+      "grammar": "",
+      "german": "Wie?",
+      "example_cloze": "¿{{c1::Cómo}} se dice esto en español?",
+      "example_de": "Wie sagt man das auf Spanisch?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bueno/-a",
+      "grammar": "adj",
+      "german": "gut",
+      "example_cloze": "Es un {{c1::buen}} libro.",
+      "example_de": "Es ist ein gutes Buch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bastante",
+      "grammar": "adv",
+      "german": "ziemlich",
+      "example_cloze": "El examen es {{c1::bastante}} difícil.",
+      "example_de": "Die Prüfung ist ziemlich schwer.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "malo/-a",
+      "grammar": "adj",
+      "german": "schlecht",
+      "example_cloze": "Hoy hace muy {{c1::mal}} tiempo.",
+      "example_de": "Heute ist sehr schlechtes Wetter.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la abuelo/-a",
+      "grammar": "",
+      "german": "Großvater/-mutter; pl Großeltern",
+      "example_cloze": "Mi {{c1::abuela}} tiene ochenta años.",
+      "example_de": "Meine Großmutter ist achtzig Jahre alt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la tío/-a",
+      "grammar": "",
+      "german": "Onkel / Tante",
+      "example_cloze": "Mi {{c1::tío}} vive en Sevilla.",
+      "example_de": "Mein Onkel wohnt in Sevilla.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la primo/-a",
+      "grammar": "",
+      "german": "Cousin/e",
+      "example_cloze": "Mi {{c1::primo}} estudia en Valencia.",
+      "example_de": "Mein Cousin studiert in Valencia.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la relación familiar",
+      "grammar": "f",
+      "german": "Verwandtschaftsbeziehung",
+      "example_cloze": "Tenemos una buena {{c1::relación familiar}}.",
+      "example_de": "Wir haben eine gute familiäre Beziehung.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la novio/-a",
+      "grammar": "",
+      "german": "(feste/r) Freund/in",
+      "example_cloze": "Mi {{c1::novia}} estudia arquitectura.",
+      "example_de": "Meine Freundin studiert Architektur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la compañero/-a de piso",
+      "grammar": "",
+      "german": "Mitbewohner/in",
+      "example_cloze": "Mi {{c1::compañero de piso}} es muy ordenado.",
+      "example_de": "Mein Mitbewohner ist sehr ordentlich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "nuestro/-a",
+      "grammar": "",
+      "german": "unser/e",
+      "example_cloze": "{{c1::Nuestra}} profesora es muy buena.",
+      "example_de": "Unsere Lehrerin ist sehr gut.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "vuestro/-a",
+      "grammar": "",
+      "german": "euer/e",
+      "example_cloze": "¿Dónde está {{c1::vuestro}} profesor?",
+      "example_de": "Wo ist euer Lehrer?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la hijo/-a único/-a",
+      "grammar": "",
+      "german": "Einzelkind",
+      "example_cloze": "Soy {{c1::hijo único}}.",
+      "example_de": "Ich bin Einzelkind.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el problema",
+      "grammar": "m",
+      "german": "Problem",
+      "example_cloze": "Tengo un {{c1::problema}} con la tarea.",
+      "example_de": "Ich habe ein Problem mit der Aufgabe.",
+      "notes": "Ausnahme: maskulin trotz -a",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la residencia",
+      "grammar": "f",
+      "german": "(Studenten-)Wohnheim",
+      "example_cloze": "Vivo en una {{c1::residencia}} de estudiantes.",
+      "example_de": "Ich wohne in einem Studentenwohnheim.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "siempre",
+      "grammar": "adv",
+      "german": "immer",
+      "example_cloze": "{{c1::Siempre}} estudio por la mañana.",
+      "example_de": "Ich lerne immer am Morgen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la sobrino/-a",
+      "grammar": "",
+      "german": "Neffe / Nichte",
+      "example_cloze": "Mi {{c1::sobrina}} tiene tres años.",
+      "example_de": "Meine Nichte ist drei Jahre alt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la situación",
+      "grammar": "f",
+      "german": "Situation, Lage",
+      "example_cloze": "La {{c1::situación}} es complicada.",
+      "example_de": "Die Situation ist kompliziert.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "no... nada",
+      "grammar": "",
+      "german": "überhaupt nicht",
+      "example_cloze": "Hoy no quiero hacer {{c1::nada}}.",
+      "example_de": "Heute möchte ich gar nichts tun.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "constante",
+      "grammar": "adj",
+      "german": "ausdauernd, beständig",
+      "example_cloze": "Es importante ser {{c1::constante}} al estudiar.",
+      "example_de": "Es ist wichtig, beim Lernen ausdauernd zu sein.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el apunte",
+      "grammar": "m",
+      "german": "Aufschrieb",
+      "example_cloze": "Tomo {{c1::apuntes}} en clase.",
+      "example_de": "Ich mache Notizen im Unterricht.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "perfecto/-a",
+      "grammar": "adj",
+      "german": "perfekt",
+      "example_cloze": "Tu español es {{c1::perfecto}}.",
+      "example_de": "Dein Spanisch ist perfekt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "independiente",
+      "grammar": "adj",
+      "german": "unabhängig",
+      "example_cloze": "Soy una persona {{c1::independiente}}.",
+      "example_de": "Ich bin ein unabhängiger Mensch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "cuidar (de)",
+      "grammar": "inf",
+      "german": "pflegen, betreuen",
+      "example_cloze": "Me gusta {{c1::cuidar}} de mi hermano pequeño.",
+      "example_de": "Ich kümmere mich gern um meinen kleinen Bruder.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el futuro",
+      "grammar": "m",
+      "german": "Zukunft",
+      "example_cloze": "Pienso mucho en el {{c1::futuro}}.",
+      "example_de": "Ich denke viel an die Zukunft.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "conservar",
+      "grammar": "inf",
+      "german": "erhalten, bewahren, beibehalten",
+      "example_cloze": "Quiero {{c1::conservar}} mis viejas amistades.",
+      "example_de": "Ich möchte meine alten Freundschaften bewahren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "organizado/-a",
+      "grammar": "adj",
+      "german": "ordentlich, strukturiert, systematisch",
+      "example_cloze": "Soy una persona muy {{c1::organizada}}.",
+      "example_de": "Ich bin ein sehr strukturierter Mensch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el carácter",
+      "grammar": "m",
+      "german": "Charakter",
+      "example_cloze": "Tiene un {{c1::carácter}} muy fuerte.",
+      "example_de": "Er hat einen sehr starken Charakter.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "gordo/-a",
+      "grammar": "adj",
+      "german": "dick",
+      "example_cloze": "El gato está un poco {{c1::gordo}}.",
+      "example_de": "Die Katze ist etwas dick.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el cómic",
+      "grammar": "m",
+      "german": "Comic",
+      "example_cloze": "Leo un {{c1::cómic}} en español.",
+      "example_de": "Ich lese einen Comic auf Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la música electrónica",
+      "grammar": "f",
+      "german": "elektronische Musik, Elektro-Musik",
+      "example_cloze": "Me gusta la {{c1::música electrónica}}.",
+      "example_de": "Ich mag elektronische Musik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "solo",
+      "grammar": "adv",
+      "german": "nur",
+      "example_cloze": "{{c1::Solo}} hablo un poco de español.",
+      "example_de": "Ich spreche nur ein bisschen Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el defecto",
+      "grammar": "m",
+      "german": "Fehler; Defekt",
+      "example_cloze": "Todos tenemos algún {{c1::defecto}}.",
+      "example_de": "Wir haben alle einen Fehler.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "compartir piso",
+      "grammar": "",
+      "german": "in einer WG leben",
+      "example_cloze": "Quiero {{c1::compartir piso}} con amigos.",
+      "example_de": "Ich möchte mit Freunden in einer WG leben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "ni",
+      "grammar": "",
+      "german": "nicht einmal",
+      "example_cloze": "No tengo tiempo {{c1::ni}} para comer.",
+      "example_de": "Ich habe nicht einmal Zeit zum Essen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el sándwich",
+      "grammar": "m",
+      "german": "Sandwich, belegtes Brot",
+      "example_cloze": "Como un {{c1::sándwich}} en el descanso.",
+      "example_de": "Ich esse ein Sandwich in der Pause.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "alto/-a",
+      "grammar": "adj",
+      "german": "groß (Körpergröße)",
+      "example_cloze": "Mi padre es muy {{c1::alto}}.",
+      "example_de": "Mein Vater ist sehr groß.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "rubio/-a",
+      "grammar": "adj",
+      "german": "blond",
+      "example_cloze": "Mi hermana es {{c1::rubia}}.",
+      "example_de": "Meine Schwester ist blond.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "largo/-a",
+      "grammar": "adj",
+      "german": "lang",
+      "example_cloze": "Ella tiene el pelo {{c1::largo}}.",
+      "example_de": "Sie hat lange Haare.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las gafas",
+      "grammar": "f pl",
+      "german": "Brille",
+      "example_cloze": "Llevo {{c1::gafas}} para leer.",
+      "example_de": "Ich trage eine Brille zum Lesen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la lentilla",
+      "grammar": "f",
+      "german": "(Kontakt)linse",
+      "example_cloze": "Uso {{c1::lentillas}} en vez de gafas.",
+      "example_de": "Ich trage Kontaktlinsen statt einer Brille.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "normal",
+      "grammar": "adj",
+      "german": "normal",
+      "example_cloze": "Es una situación {{c1::normal}}.",
+      "example_de": "Es ist eine normale Situation.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "divertido/-a",
+      "grammar": "adj",
+      "german": "lustig",
+      "example_cloze": "El profesor es muy {{c1::divertido}}.",
+      "example_de": "Der Lehrer ist sehr lustig.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "trabajador/a",
+      "grammar": "adj",
+      "german": "fleißig",
+      "example_cloze": "Es una estudiante muy {{c1::trabajadora}}.",
+      "example_de": "Sie ist eine sehr fleißige Studentin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "una vez a la semana",
+      "grammar": "",
+      "german": "einmal pro Woche",
+      "example_cloze": "Voy al gimnasio {{c1::una vez a la semana}}.",
+      "example_de": "Ich gehe einmal pro Woche ins Fitnessstudio.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la vez",
+      "grammar": "f",
+      "german": "Mal",
+      "example_cloze": "Es la primera {{c1::vez}} que voy a España.",
+      "example_de": "Es ist das erste Mal, dass ich nach Spanien fahre.",
+      "notes": "pl: veces",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la artista",
+      "grammar": "",
+      "german": "Künstler/in",
+      "example_cloze": "Frida Kahlo es una {{c1::artista}} famosa.",
+      "example_de": "Frida Kahlo ist eine berühmte Künstlerin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "casi",
+      "grammar": "adv",
+      "german": "fast",
+      "example_cloze": "{{c1::Casi}} siempre estudio en casa.",
+      "example_de": "Ich lerne fast immer zu Hause.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo te llamas?",
+      "grammar": "",
+      "german": "Wie heißt du?",
+      "example_cloze": "Hola, ¿{{c1::cómo te llamas}}?",
+      "example_de": "Hallo, wie heißt du?",
+      "notes": "inf: llamarse",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Buenos días",
+      "grammar": "",
+      "german": "Guten Morgen / Guten Tag",
+      "example_cloze": "{{c1::Buenos días}}, ¿qué tal?",
+      "example_de": "Guten Morgen, wie geht's?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Buenas tardes",
+      "grammar": "",
+      "german": "Guten Tag / Guten Abend",
+      "example_cloze": "{{c1::Buenas tardes}}, señora García.",
+      "example_de": "Guten Tag, Frau García.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿y usted?",
+      "grammar": "",
+      "german": "und Sie?",
+      "example_cloze": "Estoy bien, ¿{{c1::y usted}}?",
+      "example_de": "Mir geht es gut, und Ihnen?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "y",
+      "grammar": "",
+      "german": "und",
+      "example_cloze": "Hablo español {{c1::y}} alemán.",
+      "example_de": "Ich spreche Spanisch und Deutsch.",
+      "notes": "wird zu &#x27;e&#x27; vor i-/hi-",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bien",
+      "grammar": "adv",
+      "german": "gut",
+      "example_cloze": "Hablas español muy {{c1::bien}}.",
+      "example_de": "Du sprichst sehr gut Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo se llama usted?",
+      "grammar": "",
+      "german": "Wie heißen Sie?",
+      "example_cloze": "Buenos días, ¿{{c1::cómo se llama usted}}?",
+      "example_de": "Guten Tag, wie heißen Sie?",
+      "notes": "inf: llamarse",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "regular",
+      "grammar": "adj",
+      "german": "mittelmäßig; es geht so",
+      "example_cloze": "—¿Qué tal? —{{c1::Regular}}.",
+      "example_de": "—Wie geht's? —Es geht so.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el derecho",
+      "grammar": "m",
+      "german": "Recht",
+      "example_cloze": "Mi hermana estudia {{c1::Derecho}}.",
+      "example_de": "Meine Schwester studiert Jura.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las finanzas",
+      "grammar": "f pl",
+      "german": "Finanzen",
+      "example_cloze": "Trabajo en el área de {{c1::finanzas}}.",
+      "example_de": "Ich arbeite im Bereich Finanzen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la economía",
+      "grammar": "f",
+      "german": "Wirtschaft",
+      "example_cloze": "Estudio {{c1::Economía}} en la universidad.",
+      "example_de": "Ich studiere Wirtschaft an der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las matemáticas",
+      "grammar": "f pl",
+      "german": "Mathematik",
+      "example_cloze": "Las {{c1::matemáticas}} son mi materia favorita.",
+      "example_de": "Mathematik ist mein Lieblingsfach.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la arquitectura",
+      "grammar": "f",
+      "german": "Architektur",
+      "example_cloze": "Me interesa la {{c1::arquitectura}} moderna.",
+      "example_de": "Mich interessiert moderne Architektur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la ingeniería industrial",
+      "grammar": "f",
+      "german": "Wirtschaftsingenieurwesen, Industrietechnik",
+      "example_cloze": "Estudio {{c1::ingeniería industrial}}.",
+      "example_de": "Ich studiere Wirtschaftsingenieurwesen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la ciudad",
+      "grammar": "f",
+      "german": "Stadt",
+      "example_cloze": "Madrid es una {{c1::ciudad}} grande.",
+      "example_de": "Madrid ist eine große Stadt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el monumento",
+      "grammar": "m",
+      "german": "Monument, Denkmal",
+      "example_cloze": "Visitamos un {{c1::monumento}} histórico.",
+      "example_de": "Wir besuchen ein historisches Denkmal.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la naturaleza",
+      "grammar": "f",
+      "german": "Natur",
+      "example_cloze": "Me gusta pasear por la {{c1::naturaleza}}.",
+      "example_de": "Ich spaziere gern in der Natur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el acento",
+      "grammar": "m",
+      "german": "Akzent",
+      "example_cloze": "Tienes un buen {{c1::acento}} en español.",
+      "example_de": "Du hast einen guten Akzent im Spanischen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "mis palabras",
+      "grammar": "",
+      "german": "meine Wörter",
+      "example_cloze": "Estas son {{c1::mis palabras}} favoritas.",
+      "example_de": "Das sind meine Lieblingswörter.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué es la universidad?",
+      "grammar": "",
+      "german": "Was ist die Universität?",
+      "example_cloze": "¿{{c1::Qué es la universidad}} para ti?",
+      "example_de": "Was ist die Universität für dich?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el deporte",
+      "grammar": "m",
+      "german": "Sport",
+      "example_cloze": "Hago {{c1::deporte}} todos los días.",
+      "example_de": "Ich mache jeden Tag Sport.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la fiesta",
+      "grammar": "f",
+      "german": "Fest, Feier",
+      "example_cloze": "Hay una {{c1::fiesta}} en la universidad.",
+      "example_de": "Es gibt ein Fest an der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "para mí",
+      "grammar": "",
+      "german": "für mich",
+      "example_cloze": "{{c1::Para mí}}, el español es fácil.",
+      "example_de": "Für mich ist Spanisch einfach.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "bienvenido/-a (a)",
+      "grammar": "adj",
+      "german": "willkommen (in)",
+      "example_cloze": "¡{{c1::Bienvenido}} a la universidad!",
+      "example_de": "Willkommen an der Universität!",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el servicio",
+      "grammar": "m",
+      "german": "Service, Dienst, Dienstleistung",
+      "example_cloze": "El {{c1::servicio}} de la cafetería es bueno.",
+      "example_de": "Der Service der Cafeteria ist gut.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la alumno/-a",
+      "grammar": "",
+      "german": "Schüler/in; Student/in",
+      "example_cloze": "Cada {{c1::alumno}} tiene un carnet.",
+      "example_de": "Jeder Student hat einen Ausweis.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el anuncio",
+      "grammar": "m",
+      "german": "Ankündigung, Bekanntgabe, Anzeige",
+      "example_cloze": "Hay un {{c1::anuncio}} en el tablón.",
+      "example_de": "Es gibt eine Anzeige am schwarzen Brett.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la rector/a",
+      "grammar": "",
+      "german": "Rektor/in",
+      "example_cloze": "El {{c1::rector}} da un discurso.",
+      "example_de": "Der Rektor hält eine Rede.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "de",
+      "grammar": "",
+      "german": "von",
+      "example_cloze": "Soy {{c1::de}} Alemania.",
+      "example_de": "Ich bin aus Deutschland.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la oferta",
+      "grammar": "f",
+      "german": "Angebot",
+      "example_cloze": "La universidad tiene una buena {{c1::oferta}} de cursos.",
+      "example_de": "Die Universität hat ein gutes Kursangebot.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el programa",
+      "grammar": "m",
+      "german": "Programm",
+      "example_cloze": "Es un {{c1::programa}} de intercambio.",
+      "example_de": "Es ist ein Austauschprogramm.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el voluntariado",
+      "grammar": "m",
+      "german": "Ehrenamt, freiwilliger Dienst",
+      "example_cloze": "Hago un {{c1::voluntariado}} en un hospital.",
+      "example_de": "Ich mache ein Ehrenamt in einem Krankenhaus.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la informática",
+      "grammar": "f",
+      "german": "Informatik",
+      "example_cloze": "Estudio {{c1::informática}}.",
+      "example_de": "Ich studiere Informatik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la información",
+      "grammar": "f",
+      "german": "Information",
+      "example_cloze": "Necesito más {{c1::información}} sobre el curso.",
+      "example_de": "Ich brauche mehr Informationen über den Kurs.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el lugar",
+      "grammar": "m",
+      "german": "Ort, Platz, Stelle",
+      "example_cloze": "La biblioteca es un buen {{c1::lugar}} para estudiar.",
+      "example_de": "Die Bibliothek ist ein guter Ort zum Lernen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "femenino/-a",
+      "grammar": "adj",
+      "german": "weiblich",
+      "example_cloze": "«La mesa» es una palabra {{c1::femenina}}.",
+      "example_de": "„La mesa“ ist ein weibliches Wort.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el plural",
+      "grammar": "m",
+      "german": "Mehrzahl",
+      "example_cloze": "«Libros» está en {{c1::plural}}.",
+      "example_de": "„Libros“ steht im Plural.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la",
+      "grammar": "",
+      "german": "der / die / das (bestimmter Artikel)",
+      "example_cloze": "{{c1::El}} libro está en la mesa.",
+      "example_de": "Das Buch liegt auf dem Tisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "un/una",
+      "grammar": "",
+      "german": "ein / eine (unbestimmter Artikel)",
+      "example_cloze": "Tengo {{c1::una}} pregunta.",
+      "example_de": "Ich habe eine Frage.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el arte",
+      "grammar": "m",
+      "german": "Kunst",
+      "example_cloze": "Me encanta el {{c1::arte}} moderno.",
+      "example_de": "Ich liebe moderne Kunst.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las lenguas modernas",
+      "grammar": "f pl",
+      "german": "moderne Sprachen",
+      "example_cloze": "Estudio {{c1::lenguas modernas}}.",
+      "example_de": "Ich studiere moderne Sprachen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la ingeniería civil",
+      "grammar": "f",
+      "german": "Bauingenieurwesen",
+      "example_cloze": "Mi amigo estudia {{c1::ingeniería civil}}.",
+      "example_de": "Mein Freund studiert Bauingenieurwesen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el diseño industrial",
+      "grammar": "m",
+      "german": "Industriedesign",
+      "example_cloze": "Me interesa el {{c1::diseño industrial}}.",
+      "example_de": "Mich interessiert Industriedesign.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la ingeniería informática",
+      "grammar": "f",
+      "german": "Ingenieurinformatik",
+      "example_cloze": "Estudio {{c1::ingeniería informática}}.",
+      "example_de": "Ich studiere Ingenieurinformatik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué significa...?",
+      "grammar": "",
+      "german": "Was bedeutet...?",
+      "example_cloze": "¿{{c1::Qué significa}} esta palabra?",
+      "example_de": "Was bedeutet dieses Wort?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "más",
+      "grammar": "adv",
+      "german": "mehr, weitere",
+      "example_cloze": "Quiero aprender {{c1::más}} vocabulario.",
+      "example_de": "Ich möchte mehr Vokabeln lernen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el mundo hispanohablante",
+      "grammar": "m",
+      "german": "die spanischsprachige Welt",
+      "example_cloze": "México es parte del {{c1::mundo hispanohablante}}.",
+      "example_de": "Mexiko ist Teil der spanischsprachigen Welt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la persona",
+      "grammar": "f",
+      "german": "Person",
+      "example_cloze": "Es una {{c1::persona}} muy amable.",
+      "example_de": "Sie ist ein sehr freundlicher Mensch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la música",
+      "grammar": "f",
+      "german": "Musik",
+      "example_cloze": "Escucho {{c1::música}} mientras estudio.",
+      "example_de": "Ich höre Musik, während ich lerne.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo se escribe?",
+      "grammar": "",
+      "german": "Wie schreibt man das?",
+      "example_cloze": "¿{{c1::Cómo se escribe}} tu nombre?",
+      "example_de": "Wie schreibt man deinen Namen?",
+      "notes": "inf: escribir",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "sin",
+      "grammar": "",
+      "german": "ohne",
+      "example_cloze": "Tomo el café {{c1::sin}} azúcar.",
+      "example_de": "Ich trinke den Kaffee ohne Zucker.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "m mayúscula",
+      "grammar": "f",
+      "german": "großes M",
+      "example_cloze": "Madrid se escribe con {{c1::m mayúscula}}.",
+      "example_de": "Madrid schreibt man mit großem M.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la universidad",
+      "grammar": "f",
+      "german": "Universität",
+      "example_cloze": "La {{c1::universidad}} está en el centro.",
+      "example_de": "Die Universität ist im Zentrum.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la cultura",
+      "grammar": "f",
+      "german": "Kultur",
+      "example_cloze": "Me interesa la {{c1::cultura}} española.",
+      "example_de": "Mich interessiert die spanische Kultur.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el horario",
+      "grammar": "m",
+      "german": "Stundenplan",
+      "example_cloze": "Mi {{c1::horario}} de clases es muy completo.",
+      "example_de": "Mein Stundenplan ist sehr voll.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el título",
+      "grammar": "m",
+      "german": "Titel",
+      "example_cloze": "Al final recibo un {{c1::título}} universitario.",
+      "example_de": "Am Ende bekomme ich einen Universitätsabschluss.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el examen",
+      "grammar": "m",
+      "german": "Prüfung",
+      "example_cloze": "Mañana tengo un {{c1::examen}} de español.",
+      "example_de": "Morgen habe ich eine Spanischprüfung.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la excursión",
+      "grammar": "f",
+      "german": "Ausflug, Exkursion",
+      "example_cloze": "Hacemos una {{c1::excursión}} a Toledo.",
+      "example_de": "Wir machen einen Ausflug nach Toledo.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la investigación",
+      "grammar": "f",
+      "german": "Untersuchung, Forschung",
+      "example_cloze": "Trabajo en un proyecto de {{c1::investigación}}.",
+      "example_de": "Ich arbeite an einem Forschungsprojekt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el tablón de anuncios",
+      "grammar": "m",
+      "german": "Schwarzes Brett",
+      "example_cloze": "Miro el {{c1::tablón de anuncios}} cada día.",
+      "example_de": "Ich schaue jeden Tag aufs schwarze Brett.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la beca",
+      "grammar": "f",
+      "german": "Stipendium",
+      "example_cloze": "Tengo una {{c1::beca}} para estudiar fuera.",
+      "example_de": "Ich habe ein Stipendium, um im Ausland zu studieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el grado",
+      "grammar": "m",
+      "german": "(akademischer) Grad",
+      "example_cloze": "Termino mi {{c1::grado}} este año.",
+      "example_de": "Ich beende meinen Bachelor dieses Jahr.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el doctorado",
+      "grammar": "m",
+      "german": "Doktortitel, Promotion",
+      "example_cloze": "Después quiero hacer un {{c1::doctorado}}.",
+      "example_de": "Danach möchte ich promovieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el laboratorio",
+      "grammar": "m",
+      "german": "Labor",
+      "example_cloze": "Trabajamos en el {{c1::laboratorio}} de química.",
+      "example_de": "Wir arbeiten im Chemielabor.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las prácticas",
+      "grammar": "f pl",
+      "german": "Praktikum",
+      "example_cloze": "Hago {{c1::prácticas}} en una empresa.",
+      "example_de": "Ich mache ein Praktikum in einem Unternehmen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el singular",
+      "grammar": "m",
+      "german": "Einzahl",
+      "example_cloze": "«Libro» está en {{c1::singular}}.",
+      "example_de": "„Libro“ steht im Singular.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el ojo",
+      "grammar": "m",
+      "german": "Auge; hier: Achtung",
+      "example_cloze": "Me duele un {{c1::ojo}}.",
+      "example_de": "Mir tut ein Auge weh.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la cifra",
+      "grammar": "f",
+      "german": "Ziffer, Zahl",
+      "example_cloze": "Escribe la {{c1::cifra}} en el formulario.",
+      "example_de": "Schreib die Zahl ins Formular.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tener",
+      "grammar": "inf",
+      "german": "haben",
+      "example_cloze": "Quiero {{c1::tener}} más tiempo libre.",
+      "example_de": "Ich möchte mehr Freizeit haben.",
+      "notes": "g, ie",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la medicina",
+      "grammar": "f",
+      "german": "Medizin",
+      "example_cloze": "Estudio {{c1::medicina}} en Valencia.",
+      "example_de": "Ich studiere Medizin in Valencia.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la ingeniería",
+      "grammar": "f",
+      "german": "Ingenieurwesen, Maschinenbau",
+      "example_cloze": "Me gusta la {{c1::ingeniería}}.",
+      "example_de": "Ich mag Ingenieurwesen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la gestión de proyectos",
+      "grammar": "f",
+      "german": "Projektmanagement",
+      "example_cloze": "Aprendo {{c1::gestión de proyectos}} en el curso.",
+      "example_de": "Ich lerne Projektmanagement im Kurs.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo se pronuncia...?",
+      "grammar": "",
+      "german": "Wie spricht man ... aus?",
+      "example_cloze": "¿{{c1::Cómo se pronuncia}} esta palabra?",
+      "example_de": "Wie spricht man dieses Wort aus?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "frases útiles para la clase",
+      "grammar": "",
+      "german": "nützliche Sätze für den Unterricht",
+      "example_cloze": "Aprendemos {{c1::frases útiles para la clase}}.",
+      "example_de": "Wir lernen nützliche Sätze für den Unterricht.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la gastronomía",
+      "grammar": "f",
+      "german": "Gastronomie",
+      "example_cloze": "Me encanta la {{c1::gastronomía}} española.",
+      "example_de": "Ich liebe die spanische Gastronomie.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "con",
+      "grammar": "",
+      "german": "mit",
+      "example_cloze": "Estudio español {{c1::con}} mi amiga.",
+      "example_de": "Ich lerne Spanisch mit meiner Freundin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la diéresis",
+      "grammar": "f",
+      "german": "Umlaut (Trema)",
+      "example_cloze": "La palabra «pingüino» lleva {{c1::diéresis}}.",
+      "example_de": "Das Wort „pingüino“ hat ein Trema.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "m minúscula",
+      "grammar": "f",
+      "german": "kleines M",
+      "example_cloze": "«mesa» se escribe con {{c1::m minúscula}}.",
+      "example_de": "„mesa“ schreibt man mit kleinem M.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "es",
+      "grammar": "",
+      "german": "ist",
+      "example_cloze": "Madrid {{c1::es}} la capital de España.",
+      "example_de": "Madrid ist die Hauptstadt von Spanien.",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la amigo/-a",
+      "grammar": "",
+      "german": "Freund/in",
+      "example_cloze": "Mi mejor {{c1::amigo}} habla español.",
+      "example_de": "Mein bester Freund spricht Spanisch.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el aula",
+      "grammar": "f",
+      "german": "Hörsaal, Klassenzimmer, Kursraum",
+      "example_cloze": "La clase es en el {{c1::aula}} 3.",
+      "example_de": "Der Unterricht ist im Hörsaal 3.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la biblioteca",
+      "grammar": "f",
+      "german": "Bibliothek",
+      "example_cloze": "Estudio en la {{c1::biblioteca}} cada tarde.",
+      "example_de": "Ich lerne jeden Nachmittag in der Bibliothek.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el departamento",
+      "grammar": "m",
+      "german": "Abteilung, Fachbereich",
+      "example_cloze": "El {{c1::departamento}} de idiomas está arriba.",
+      "example_de": "Die Sprachenabteilung ist oben.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "los estudios",
+      "grammar": "m pl",
+      "german": "Studium",
+      "example_cloze": "Mis {{c1::estudios}} son muy interesantes.",
+      "example_de": "Mein Studium ist sehr interessant.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la restauración",
+      "grammar": "f",
+      "german": "Restaurierung",
+      "example_cloze": "La {{c1::restauración}} del museo dura años.",
+      "example_de": "Die Restaurierung des Museums dauert Jahre.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la fachada",
+      "grammar": "f",
+      "german": "Fassade",
+      "example_cloze": "La {{c1::fachada}} del edificio es antigua.",
+      "example_de": "Die Fassade des Gebäudes ist alt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la movilidad",
+      "grammar": "f",
+      "german": "Mobilität",
+      "example_cloze": "El programa de {{c1::movilidad}} es muy popular.",
+      "example_de": "Das Mobilitätsprogramm ist sehr beliebt.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Máster Universitario",
+      "grammar": "m",
+      "german": "Master",
+      "example_cloze": "Quiero hacer un {{c1::Máster Universitario}}.",
+      "example_de": "Ich möchte einen Master machen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "masculino/-a",
+      "grammar": "adj",
+      "german": "männlich",
+      "example_cloze": "«El libro» es una palabra {{c1::masculina}}.",
+      "example_de": "„El libro“ ist ein männliches Wort.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tiene ... años",
+      "grammar": "",
+      "german": "er/sie ist ... Jahre alt",
+      "example_cloze": "Mi abuelo {{c1::tiene}} setenta {{c1::años}}.",
+      "example_de": "Mein Großvater ist siebzig Jahre alt.",
+      "notes": "inf: tener",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "en total",
+      "grammar": "",
+      "german": "insgesamt",
+      "example_cloze": "{{c1::En total}} somos veinte estudiantes.",
+      "example_de": "Insgesamt sind wir zwanzig Studenten.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "gracias",
+      "grammar": "",
+      "german": "danke",
+      "example_cloze": "Muchas {{c1::gracias}} por tu ayuda.",
+      "example_de": "Vielen Dank für deine Hilfe.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la asociación",
+      "grammar": "f",
+      "german": "Verbindung, Verein, Verband",
+      "example_cloze": "Soy miembro de una {{c1::asociación}} de estudiantes.",
+      "example_de": "Ich bin Mitglied in einem Studentenverein.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el/la profesor/a de español",
+      "grammar": "",
+      "german": "Spanischlehrer/in",
+      "example_cloze": "Mi {{c1::profesora de español}} es de Sevilla.",
+      "example_de": "Meine Spanischlehrerin ist aus Sevilla.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el español",
+      "grammar": "m",
+      "german": "Spanisch",
+      "example_cloze": "El {{c1::español}} se habla en muchos países.",
+      "example_de": "Spanisch wird in vielen Ländern gesprochen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Qué tal?",
+      "grammar": "",
+      "german": "Wie geht&#x27;s?",
+      "example_cloze": "Hola, ¿{{c1::qué tal}}?",
+      "example_de": "Hallo, wie geht's?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "soy",
+      "grammar": "",
+      "german": "ich bin",
+      "example_cloze": "{{c1::Soy}} estudiante de medicina.",
+      "example_de": "Ich bin Medizinstudent.",
+      "notes": "inf: ser",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la tarde",
+      "grammar": "f",
+      "german": "Nachmittag",
+      "example_cloze": "Por la {{c1::tarde}} estudio en casa.",
+      "example_de": "Am Nachmittag lerne ich zu Hause.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la enfermería",
+      "grammar": "f",
+      "german": "Krankenpflege",
+      "example_cloze": "Ella estudia {{c1::enfermería}}.",
+      "example_de": "Sie studiert Krankenpflege.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "¿Cómo está?",
+      "grammar": "",
+      "german": "Wie geht es Ihnen?",
+      "example_cloze": "Buenos días, ¿{{c1::cómo está}}?",
+      "example_de": "Guten Tag, wie geht es Ihnen?",
+      "notes": "inf: estar",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las bellas artes",
+      "grammar": "f pl",
+      "german": "Schöne Künste",
+      "example_cloze": "Estudio {{c1::bellas artes}}.",
+      "example_de": "Ich studiere Schöne Künste.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "tú",
+      "grammar": "",
+      "german": "du",
+      "example_cloze": "¿{{c1::Tú}} hablas español?",
+      "example_de": "Sprichst du Spanisch?",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Buenas noches",
+      "grammar": "",
+      "german": "Guten Abend / Gute Nacht",
+      "example_cloze": "{{c1::Buenas noches}}, hasta mañana.",
+      "example_de": "Gute Nacht, bis morgen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la química",
+      "grammar": "f",
+      "german": "Chemie",
+      "example_cloze": "La {{c1::química}} es difícil para mí.",
+      "example_de": "Chemie ist schwierig für mich.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la biología",
+      "grammar": "f",
+      "german": "Biologie",
+      "example_cloze": "Estudio {{c1::biología}} en la universidad.",
+      "example_de": "Ich studiere Biologie an der Universität.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la noche",
+      "grammar": "f",
+      "german": "Nacht",
+      "example_cloze": "Estudio mejor por la {{c1::noche}}.",
+      "example_de": "Ich lerne nachts besser.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la relación",
+      "grammar": "f",
+      "german": "Beziehung",
+      "example_cloze": "Tenemos una buena {{c1::relación}}.",
+      "example_de": "Wir haben eine gute Beziehung.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las humanidades",
+      "grammar": "f pl",
+      "german": "Geisteswissenschaften",
+      "example_cloze": "Me interesan las {{c1::humanidades}}.",
+      "example_de": "Mich interessieren die Geisteswissenschaften.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "portugués/-esa",
+      "grammar": "adj",
+      "german": "portugiesisch",
+      "example_cloze": "Mi amigo es {{c1::portugués}}.",
+      "example_de": "Mein Freund ist Portugiese.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la veterinaria",
+      "grammar": "f",
+      "german": "Tiermedizin",
+      "example_cloze": "Ella estudia {{c1::veterinaria}}.",
+      "example_de": "Sie studiert Tiermedizin.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las ciencias jurídicas",
+      "grammar": "f pl",
+      "german": "Rechtswissenschaften",
+      "example_cloze": "Estudio {{c1::ciencias jurídicas}}.",
+      "example_de": "Ich studiere Rechtswissenschaften.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el trabajo social",
+      "grammar": "m",
+      "german": "Soziale Arbeit",
+      "example_cloze": "Mi hermana estudia {{c1::trabajo social}}.",
+      "example_de": "Meine Schwester studiert Soziale Arbeit.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las relaciones laborales",
+      "grammar": "f pl",
+      "german": "Unternehmensorganisation, Personalwesen",
+      "example_cloze": "Estudio {{c1::relaciones laborales}}.",
+      "example_de": "Ich studiere Personalwesen.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "el periodismo",
+      "grammar": "m",
+      "german": "Journalismus, Publizistik",
+      "example_cloze": "Quiero estudiar {{c1::periodismo}}.",
+      "example_de": "Ich möchte Journalismus studieren.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la filología",
+      "grammar": "f",
+      "german": "Philologie, Sprachwissenschaft",
+      "example_cloze": "Estudio {{c1::filología}} hispánica.",
+      "example_de": "Ich studiere Hispanistik.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la física",
+      "grammar": "f",
+      "german": "Physik",
+      "example_cloze": "La {{c1::física}} me parece fascinante.",
+      "example_de": "Physik finde ich faszinierend.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "Hola",
+      "grammar": "",
+      "german": "Hallo",
+      "example_cloze": "{{c1::Hola}}, me llamo Marta.",
+      "example_de": "Hallo, ich heiße Marta.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las ciencias",
+      "grammar": "f pl",
+      "german": "Wissenschaften",
+      "example_cloze": "Me gustan las {{c1::ciencias}} naturales.",
+      "example_de": "Ich mag die Naturwissenschaften.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las ciencias de la salud",
+      "grammar": "f pl",
+      "german": "Gesundheitswissenschaften",
+      "example_cloze": "Estudio {{c1::ciencias de la salud}}.",
+      "example_de": "Ich studiere Gesundheitswissenschaften.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la farmacia",
+      "grammar": "f",
+      "german": "Pharmazie",
+      "example_cloze": "Mi primo estudia {{c1::farmacia}}.",
+      "example_de": "Mein Cousin studiert Pharmazie.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "me llamo",
+      "grammar": "",
+      "german": "ich heiße",
+      "example_cloze": "Hola, {{c1::me llamo}} Carlos.",
+      "example_de": "Hallo, ich heiße Carlos.",
+      "notes": "inf: llamarse; wörtlich: ich nenne mich",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "las ciencias políticas",
+      "grammar": "f pl",
+      "german": "Politikwissenschaften",
+      "example_cloze": "Estudio {{c1::ciencias políticas}}.",
+      "example_de": "Ich studiere Politikwissenschaften.",
+      "notes": "",
+      "source": ""
+    },
+    {
+      "type": "vocab",
+      "spanish": "la historia",
+      "grammar": "f",
+      "german": "Geschichte",
+      "example_cloze": "Me encanta la {{c1::historia}} de España.",
+      "example_de": "Ich liebe die Geschichte Spaniens.",
+      "notes": "",
+      "source": ""
+    }
+  ]
 }
