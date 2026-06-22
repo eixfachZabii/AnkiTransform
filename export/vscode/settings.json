@@ -1,0 +1,90 @@
+{
+  "workbench.colorTheme": "Dracula Theme",
+  "telemetry.telemetryLevel": "off",
+  "cmake.configureOnOpen": true,
+  "files.autoSave": "onFocusChange",
+  "git.suggestSmartCommit": false,
+  "git.autofetch": true,
+  "editor.fontSize": 14,
+  "python.createEnvironment.trigger": "off",
+  "editor.tabSize": 8,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+  "claudeCode.allowDangerouslySkipPermissions": true,
+
+  "chat.agent.maxRequests": 100,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 13,
+  "better-comments.multilineComments": true,
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petColor": "orange",
+  "vscode-pets.petType": "cat",
+  "editor.minimap.enabled": false,
+  "geminicodeassist.project": "avid-aleph-mmmds",
+  "explorer.confirmDelete": false,
+  // WINDOWS: was "/opt/homebrew/bin/python3" on macOS.
+  // Set this to your Windows Python, e.g. "C:\\Python312\\python.exe",
+  // or leave as "python" to let VS Code resolve it from PATH.
+  "python.defaultInterpreterPath": "python",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "github-enterprise.uri": "https://bmw.ghe.com",
+  "github.copilot.advanced": {
+    "authProvider": "github-enterprise",
+  },
+  "jupyter.askForKernelRestart": false,
+  "chat.viewSessions.orientation": "stacked",
+  "extensions.ignoreRecommendations": true,
+  "chat.tools.terminal.autoApprove": {
+    "git add": true,
+    "git commit": true,
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "chat.disableAIFeatures": true,
+  "editor.accessibilitySupport": "on",
+  "claudeCode.preferredLocation": "panel",
+  // WINDOWS: Menlo/Monaco are macOS fonts. Keeping JetBrains Mono (cross-platform
+  // if installed) with Windows fallbacks Consolas / Cascadia Mono.
+  "terminal.integrated.fontFamily": "'JetBrains Mono', Consolas, 'Cascadia Mono', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.letterSpacing": 0.3,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#F4EDD8",
+    "terminal.foreground": "#1A0F05",
+    "terminal.ansiBlack": "#2A1A0A",
+    "terminal.ansiBrightBlack": "#5A4A3A",
+    "terminal.ansiRed": "#9B1C1C",
+    "terminal.ansiBrightRed": "#D32F2F",
+    // green (32) = $ bash  |  bright green (92) = + CREATE
+    "terminal.ansiGreen": "#236B27",
+    "terminal.ansiBrightGreen": "#1E8C25",
+    // yellow (33) = ~ EDIT
+    "terminal.ansiYellow": "#7B5800",
+    "terminal.ansiBrightYellow": "#B8860B",
+    // blue (34) = ≡ read (dim)
+    "terminal.ansiBlue": "#1A3A7C",
+    "terminal.ansiBrightBlue": "#1565C0",
+    // magenta (35) = ⊞ NOTEBOOK  |  bright magenta (95) = ? QUESTION
+    "terminal.ansiMagenta": "#722880",
+    "terminal.ansiBrightMagenta": "#B000B8",
+    // cyan (36) = ⊙ web / server label  |  bright cyan (96) = ⚡ MCP / ◈ AGENT
+    "terminal.ansiCyan": "#007080",
+    "terminal.ansiBrightCyan": "#0098B0",
+    "terminal.ansiWhite": "#7A6A5A",
+    "terminal.ansiBrightWhite": "#1A0F05",
+    "terminal.selectionBackground": "#C8A87040",
+    "terminal.cursorBackground": "#1A0F05",
+    "terminal.cursorForeground": "#F4EDD8",
+  },
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.userWords": ["pytest"],
+}

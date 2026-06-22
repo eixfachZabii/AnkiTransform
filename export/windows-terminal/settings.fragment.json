@@ -1,0 +1,45 @@
+{
+  "_comment": "Windows Terminal equivalent of your macOS Terminal.app 'Basic' beige profile. This is a FRAGMENT — merge the pieces into your real settings.json (open Windows Terminal > Settings > 'Open JSON file', or the gear with Ctrl+,). Do NOT overwrite the whole file. See INSTALL-WINDOWS.md.",
+
+  "schemes": [
+    {
+      "name": "Claude Beige",
+      "background": "#F5F0E8",
+      "foreground": "#1A0F05",
+      "cursorColor": "#1A0F05",
+      "selectionBackground": "#C8A870",
+      "black": "#2A1A0A",
+      "red": "#9B1C1C",
+      "green": "#236B27",
+      "yellow": "#7B5800",
+      "blue": "#1A3A7C",
+      "purple": "#722880",
+      "cyan": "#007080",
+      "white": "#7A6A5A",
+      "brightBlack": "#5A4A3A",
+      "brightRed": "#D32F2F",
+      "brightGreen": "#1E8C25",
+      "brightYellow": "#B8860B",
+      "brightBlue": "#1565C0",
+      "brightPurple": "#B000B8",
+      "brightCyan": "#0098B0",
+      "brightWhite": "#1A0F05"
+    }
+  ],
+
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Claude Beige",
+      "font": {
+        "face": "Cascadia Mono",
+        "size": 12
+      },
+      "antialiasingMode": "grayscale",
+      "padding": "8",
+      "useAcrylic": false
+    }
+  },
+
+  "initialCols": 120,
+  "initialRows": 30
+}

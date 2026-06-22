@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(defaults read *)",
+      "Bash(osascript *)",
+      "Bash(code --list-extensions)"
+    ]
+  }
+}
