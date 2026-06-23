@@ -96,6 +96,35 @@ hr#answer { border: none; border-top: 1px solid var(--border); margin: 22px 0; }
 .cloze-sentence { font-size: 24px; color: var(--heading); margin: 18px auto; max-width: 92%; }
 .cloze { font-weight: 800; color: var(--accent); }
 
+/* hover hint */
+.hint { position: relative; display: inline; cursor: help; }
+.hint .cloze { border-bottom: 1px dotted var(--accent); }
+.hint::after {
+    content: attr(data-hint);
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%) translateY(-8px);
+    background: var(--panel);
+    color: var(--fg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+.hint:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* grammar tables + images */
 .table-wrap { margin: 16px auto; overflow-x: auto; }
 .table-wrap img { max-width: 100%; height: auto; border-radius: 12px; box-shadow: var(--shadow); }
